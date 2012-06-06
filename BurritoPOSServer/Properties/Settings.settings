@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BurritoPOSServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NeatoBurritoDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">user id=root;password=admin;server=.\JIMTEST;Trusted_Connection=yes;database=NeatoBurrito;connection timeout=30</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

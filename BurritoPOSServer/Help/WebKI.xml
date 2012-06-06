@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="AccessibilityNotifyClients method" Url="html/57aba401-7871-57aa-90c1-39a5d410da53.htm" />
+  <HelpKINode Title="AllTests class" Url="html/249c978b-c3d4-1069-88fb-0121f07803b4.htm" />
+  <HelpKINode Title="AllTests class" Url="html/4f838cd6-7874-71f0-a117-efd3d5a52adb.htm" />
+  <HelpKINode Title="AllTests class" Url="html/b7cd3f8c-5002-5d45-ec60-762dd0839394.htm" />
+  <HelpKINode Title="AllTests class" Url="html/d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm" />
+  <HelpKINode Title="AllTests class">
+    <HelpKINode Title="about AllTests class" Url="html/4f838cd6-7874-71f0-a117-efd3d5a52adb.htm" />
+    <HelpKINode Title="about AllTests class" Url="html/d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm" />
+    <HelpKINode Title="all members" Url="html/249c978b-c3d4-1069-88fb-0121f07803b4.htm" />
+    <HelpKINode Title="all members" Url="html/b7cd3f8c-5002-5d45-ec60-762dd0839394.htm" />
+    <HelpKINode Title="constructor" Url="html/09a3d80a-a67c-aa1d-7984-bfab5239470c.htm" />
+    <HelpKINode Title="constructor" Url="html/53dce249-8f04-bc9d-6c94-7725c4a4aeb9.htm" />
+    <HelpKINode Title="methods" Url="html/7721d946-26d8-7b99-5839-e071afb326ee.htm" />
+    <HelpKINode Title="methods" Url="html/e8ee2b52-6e5e-721e-e166-790914329208.htm" />
+    <HelpKINode Title="properties" Url="html/3ac740d4-116b-3a68-c922-cf9a7bcb4e10.htm" />
+    <HelpKINode Title="properties" Url="html/aeda0630-8a2e-15e7-da6f-1427f19cb0a4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AllTests.AllTests constructor" Url="html/09a3d80a-a67c-aa1d-7984-bfab5239470c.htm" />
+  <HelpKINode Title="AllTests.AllTests constructor" Url="html/53dce249-8f04-bc9d-6c94-7725c4a4aeb9.htm" />
+  <HelpKINode Title="AllTests.Suite property" Url="html/50ec456b-e2c3-e4c5-aa6d-24a968e7519d.htm" />
+  <HelpKINode Title="AllTests.Suite property" Url="html/b182e6cd-e249-1e17-b178-79e11c2b5d65.htm" />
+  <HelpKINode Title="BaseSvcHibernateImpl class" Url="html/15ba5328-9fe6-5029-7651-8a81ea38ce68.htm" />
+  <HelpKINode Title="BaseSvcHibernateImpl class" Url="html/1bb792ca-0a14-0a9d-13de-a7cc74b0ccc6.htm" />
+  <HelpKINode Title="BaseSvcHibernateImpl class">
+    <HelpKINode Title="about BaseSvcHibernateImpl class" Url="html/15ba5328-9fe6-5029-7651-8a81ea38ce68.htm" />
+    <HelpKINode Title="all members" Url="html/1bb792ca-0a14-0a9d-13de-a7cc74b0ccc6.htm" />
+    <HelpKINode Title="constructor" Url="html/3c5a9723-47b3-a2f2-b678-8a91d3a9a74b.htm" />
+    <HelpKINode Title="methods" Url="html/7c5f3e27-c42a-06a7-2e87-af5e1e525510.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseSvcHibernateImpl.BaseSvcHibernateImpl constructor" Url="html/3c5a9723-47b3-a2f2-b678-8a91d3a9a74b.htm" />
+  <HelpKINode Title="BaseSvcHibernateImpl.getSession method" Url="html/9d6221df-1fe0-db93-e79e-370f51355ca5.htm" />
+  <HelpKINode Title="BeginInvoke method" Url="html/7dadfc96-0f78-abfa-6eec-71d1e769278a.htm" />
+  <HelpKINode Title="BurritoPOSServer namespace" Url="html/2b29c4dd-5eb6-97a0-eff5-8e15ce8174f0.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain namespace" Url="html/70d04d43-9e0b-7166-a5be-0c6760cce25d.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.test namespace" Url="html/d2ed0f60-9508-ac64-04ee-7ff95e23755f.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.test.AllTests class" Url="html/b7cd3f8c-5002-5d45-ec60-762dd0839394.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.test.AllTests class" Url="html/d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.test.UserTestCase class" Url="html/0a43b84a-be28-58a9-ee84-c549ef291a47.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.test.UserTestCase class" Url="html/c41f0640-7da0-d4a4-abdc-8ea58486a618.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.User class" Url="html/079f635c-5c36-0077-d303-8960c6fd5d45.htm" />
+  <HelpKINode Title="BurritoPOSServer.domain.User class" Url="html/b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm" />
+  <HelpKINode Title="BurritoPOSServer.exception namespace" Url="html/5bb95aea-ed3a-39d2-786b-7e35428f6144.htm" />
+  <HelpKINode Title="BurritoPOSServer.exception.ServiceLoadException class" Url="html/1801562c-5a7b-cfdc-e969-c9e7c138ae2a.htm" />
+  <HelpKINode Title="BurritoPOSServer.exception.ServiceLoadException class" Url="html/630e7cea-4e65-f2fa-78fd-5893676aab98.htm" />
+  <HelpKINode Title="BurritoPOSServer.Form1 class" Url="html/98748099-eca4-f2a6-25dc-340795fc9e24.htm" />
+  <HelpKINode Title="BurritoPOSServer.Form1 class" Url="html/f5f273fa-5fb1-aef7-efd3-a09ad4858137.htm" />
+  <HelpKINode Title="BurritoPOSServer.Program class" Url="html/957933ee-a00a-76b7-4c76-c769ec032e4e.htm" />
+  <HelpKINode Title="BurritoPOSServer.service namespace" Url="html/5ebb491a-b3fa-257e-ff05-e0e381e7a062.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Factory class" Url="html/b2609aec-c7cf-7c9a-c25b-256817a86c49.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Factory class" Url="html/f116b574-3a46-971f-73ee-f321d3a8e7f5.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Hibernate namespace" Url="html/672d0a9e-955e-dcf4-72e8-824652027ddc.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl class" Url="html/15ba5328-9fe6-5029-7651-8a81ea38ce68.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl class" Url="html/1bb792ca-0a14-0a9d-13de-a7cc74b0ccc6.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Hibernate.UserHibernateImpl class" Url="html/5d738358-7570-4c9f-b41b-8de85e916f59.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Hibernate.UserHibernateImpl class" Url="html/7d347a09-7354-4a54-b287-9efbecbecac5.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.IService interface" Url="html/45365bc5-fa8e-f491-45b2-c9d044141b24.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.IUserSvc interface" Url="html/0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.IUserSvc interface" Url="html/c1d988b5-a0bb-d05f-287b-352539602208.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Mongo namespace" Url="html/8055b3c5-f6be-9f3a-4ac0-303e0c3e311f.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Mongo.UserSvcMongoImpl class" Url="html/41a4e8e1-ec94-60d0-84d8-0484538830c8.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.Mongo.UserSvcMongoImpl class" Url="html/ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.test namespace" Url="html/3fc66f69-e95e-0f21-1534-241ba6ce280d.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.test.AllTests class" Url="html/249c978b-c3d4-1069-88fb-0121f07803b4.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.test.AllTests class" Url="html/4f838cd6-7874-71f0-a117-efd3d5a52adb.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.test.UserSvcImplTestCase class" Url="html/1cf643f4-1c49-fa2d-83e5-9d85631a9e4e.htm" />
+  <HelpKINode Title="BurritoPOSServer.service.test.UserSvcImplTestCase class" Url="html/823653c6-b346-7c18-e194-9cc37675361f.htm" />
+  <HelpKINode Title="deleteUser method" Url="html/408a2d9c-44c7-1322-5701-e1937f8cd42b.htm" />
+  <HelpKINode Title="deleteUser method" Url="html/6b03c6e4-b479-4130-131a-133dbad15641.htm" />
+  <HelpKINode Title="deleteUser method" Url="html/7b3d8dee-c7e4-f7b8-2d86-06468a0a6368.htm" />
+  <HelpKINode Title="Dispose method" Url="html/3b8757ba-043c-4d4a-62ad-679648b5d7c3.htm" />
+  <HelpKINode Title="Equals method" Url="html/ecb44709-ce42-b5a9-00b5-6880e3311426.htm" />
+  <HelpKINode Title="Factory class" Url="html/b2609aec-c7cf-7c9a-c25b-256817a86c49.htm" />
+  <HelpKINode Title="Factory class" Url="html/f116b574-3a46-971f-73ee-f321d3a8e7f5.htm" />
+  <HelpKINode Title="Factory class">
+    <HelpKINode Title="about Factory class" Url="html/f116b574-3a46-971f-73ee-f321d3a8e7f5.htm" />
+    <HelpKINode Title="all members" Url="html/b2609aec-c7cf-7c9a-c25b-256817a86c49.htm" />
+    <HelpKINode Title="methods" Url="html/c3a81839-ede4-9df6-badd-f8a66498637e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Factory.getInstance method" Url="html/e67f9d30-b421-b18c-cd66-8d15130b2d2d.htm" />
+  <HelpKINode Title="Factory.getService method" Url="html/4db877db-0e59-1f71-3134-48262e043324.htm" />
+  <HelpKINode Title="Factory.getUserSvc method" Url="html/c08d8ae2-330e-17c6-2b65-09ab1985431d.htm" />
+  <HelpKINode Title="Factory.parse method" Url="html/e0b5eaf7-35a4-f03c-73ca-ebabcadd4739.htm" />
+  <HelpKINode Title="Form1 class" Url="html/98748099-eca4-f2a6-25dc-340795fc9e24.htm" />
+  <HelpKINode Title="Form1 class" Url="html/f5f273fa-5fb1-aef7-efd3-a09ad4858137.htm" />
+  <HelpKINode Title="Form1 class">
+    <HelpKINode Title="about Form1 class" Url="html/f5f273fa-5fb1-aef7-efd3-a09ad4858137.htm" />
+    <HelpKINode Title="all members" Url="html/98748099-eca4-f2a6-25dc-340795fc9e24.htm" />
+    <HelpKINode Title="constructor" Url="html/574c12fe-cc3c-19e0-e99c-adfa99dc4900.htm" />
+    <HelpKINode Title="events" Url="html/7832bab0-2322-f6d5-9c20-7d7980c67fd8.htm" />
+    <HelpKINode Title="methods" Url="html/dc7a7c51-0491-dd2f-2b15-6f35e09b9ef0.htm" />
+    <HelpKINode Title="properties" Url="html/b935d52f-0d3e-bd0e-f118-70cc270d91d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Form1.AccessibilityNotifyClients method" Url="html/57aba401-7871-57aa-90c1-39a5d410da53.htm" />
+  <HelpKINode Title="Form1.BeginInvoke method" Url="html/7dadfc96-0f78-abfa-6eec-71d1e769278a.htm" />
+  <HelpKINode Title="Form1.Dispose method" Url="html/3b8757ba-043c-4d4a-62ad-679648b5d7c3.htm" />
+  <HelpKINode Title="Form1.Form1 constructor" Url="html/574c12fe-cc3c-19e0-e99c-adfa99dc4900.htm" />
+  <HelpKINode Title="Form1.GetChildAtPoint method" Url="html/0ffbfed5-00cc-c482-69ca-ff4289d80cce.htm" />
+  <HelpKINode Title="Form1.Invalidate method" Url="html/c4eff9e0-aebc-f0bc-8968-bb90857795d5.htm" />
+  <HelpKINode Title="Form1.Invoke method" Url="html/d05c96f7-7983-c67e-41c8-245e7c40da49.htm" />
+  <HelpKINode Title="Form1.MemberwiseClone method" Url="html/12fc9e38-d84d-917f-5a8f-a4621732fb47.htm" />
+  <HelpKINode Title="Form1.PerformLayout method" Url="html/d82ea3de-a9b0-722b-d60b-fe23fd854910.htm" />
+  <HelpKINode Title="Form1.ResumeLayout method" Url="html/dc02f887-884e-b9f4-21d5-0bc1e7f0cc62.htm" />
+  <HelpKINode Title="Form1.RtlTranslateAlignment method" Url="html/af1f2add-7c76-e883-ccd7-fbae494660a6.htm" />
+  <HelpKINode Title="Form1.Scale method" Url="html/cae287c4-a923-6d92-cf65-49313d64ef9e.htm" />
+  <HelpKINode Title="Form1.Select method" Url="html/ad9c16e0-204b-b905-3284-38041e582de9.htm" />
+  <HelpKINode Title="Form1.SetBounds method" Url="html/1c6e13a2-cdbe-6d44-9049-494fbe29ac5a.htm" />
+  <HelpKINode Title="Form1.Show method" Url="html/922cec45-8bbf-e77c-7f5b-b14b66bf22ce.htm" />
+  <HelpKINode Title="Form1.ShowDialog method" Url="html/f3a9701a-6424-eb1e-e216-c80a62543670.htm" />
+  <HelpKINode Title="Form1.UpdateBounds method" Url="html/1d36a94d-726e-dc6f-b9ea-75bf1b580471.htm" />
+  <HelpKINode Title="Form1.Validate method" Url="html/4c3a0609-274e-5e12-21e2-b92d0d1e1e6c.htm" />
+  <HelpKINode Title="Form1.ValidateChildren method" Url="html/e044bf4e-3b13-cc03-94b7-1765ff30acb1.htm" />
+  <HelpKINode Title="GetChildAtPoint method" Url="html/0ffbfed5-00cc-c482-69ca-ff4289d80cce.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/9f1d5fdc-6753-f898-2014-1eb6a694aa02.htm" />
+  <HelpKINode Title="getInstance method" Url="html/e67f9d30-b421-b18c-cd66-8d15130b2d2d.htm" />
+  <HelpKINode Title="getService method" Url="html/4db877db-0e59-1f71-3134-48262e043324.htm" />
+  <HelpKINode Title="getSession method" Url="html/9d6221df-1fe0-db93-e79e-370f51355ca5.htm" />
+  <HelpKINode Title="getUser method" Url="html/5c92fd3f-7dd3-4c1a-d51b-d163337cbf56.htm" />
+  <HelpKINode Title="getUser method" Url="html/74d0b4f0-2532-e476-7655-a1c072332021.htm" />
+  <HelpKINode Title="getUser method" Url="html/987bf77c-6059-48a2-d8ef-667b4db5a7d9.htm" />
+  <HelpKINode Title="getUserSvc method" Url="html/c08d8ae2-330e-17c6-2b65-09ab1985431d.htm" />
+  <HelpKINode Title="id property" Url="html/f6aac652-3480-5aae-665d-8b76d7176585.htm" />
+  <HelpKINode Title="Invalidate method" Url="html/c4eff9e0-aebc-f0bc-8968-bb90857795d5.htm" />
+  <HelpKINode Title="Invoke method" Url="html/d05c96f7-7983-c67e-41c8-245e7c40da49.htm" />
+  <HelpKINode Title="IService interface" Url="html/45365bc5-fa8e-f491-45b2-c9d044141b24.htm" />
+  <HelpKINode Title="IService interface">
+    <HelpKINode Title="about IService interface" Url="html/45365bc5-fa8e-f491-45b2-c9d044141b24.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUserSvc interface" Url="html/0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm" />
+  <HelpKINode Title="IUserSvc interface" Url="html/c1d988b5-a0bb-d05f-287b-352539602208.htm" />
+  <HelpKINode Title="IUserSvc interface">
+    <HelpKINode Title="about IUserSvc interface" Url="html/0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm" />
+    <HelpKINode Title="all members" Url="html/c1d988b5-a0bb-d05f-287b-352539602208.htm" />
+    <HelpKINode Title="methods" Url="html/72c09587-8a13-0b30-8556-f5e9f5fdac88.htm" />
+    <HelpKINode Title="properties" Url="html/ccbc17e6-e778-9d88-aee4-1102791155bb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUserSvc.deleteUser method" Url="html/7b3d8dee-c7e4-f7b8-2d86-06468a0a6368.htm" />
+  <HelpKINode Title="IUserSvc.getUser method" Url="html/5c92fd3f-7dd3-4c1a-d51b-d163337cbf56.htm" />
+  <HelpKINode Title="IUserSvc.NAME property" Url="html/4d326118-d3f8-6c32-9e43-9ef9e254396c.htm" />
+  <HelpKINode Title="IUserSvc.storeUser method" Url="html/6392bd7b-31e5-f9d4-374a-5d3880b0eb50.htm" />
+  <HelpKINode Title="MemberwiseClone method" Url="html/12fc9e38-d84d-917f-5a8f-a4621732fb47.htm" />
+  <HelpKINode Title="NAME property" Url="html/4d326118-d3f8-6c32-9e43-9ef9e254396c.htm" />
+  <HelpKINode Title="parse method" Url="html/e0b5eaf7-35a4-f03c-73ca-ebabcadd4739.htm" />
+  <HelpKINode Title="password property" Url="html/b36fa38f-176c-113a-0b11-e8cfc297e477.htm" />
+  <HelpKINode Title="PerformLayout method" Url="html/d82ea3de-a9b0-722b-d60b-fe23fd854910.htm" />
+  <HelpKINode Title="Program class" Url="html/957933ee-a00a-76b7-4c76-c769ec032e4e.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="about Program class" Url="html/957933ee-a00a-76b7-4c76-c769ec032e4e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResumeLayout method" Url="html/dc02f887-884e-b9f4-21d5-0bc1e7f0cc62.htm" />
+  <HelpKINode Title="RtlTranslateAlignment method" Url="html/af1f2add-7c76-e883-ccd7-fbae494660a6.htm" />
+  <HelpKINode Title="Scale method" Url="html/cae287c4-a923-6d92-cf65-49313d64ef9e.htm" />
+  <HelpKINode Title="Select method" Url="html/ad9c16e0-204b-b905-3284-38041e582de9.htm" />
+  <HelpKINode Title="ServiceLoadException class" Url="html/1801562c-5a7b-cfdc-e969-c9e7c138ae2a.htm" />
+  <HelpKINode Title="ServiceLoadException class" Url="html/630e7cea-4e65-f2fa-78fd-5893676aab98.htm" />
+  <HelpKINode Title="ServiceLoadException class">
+    <HelpKINode Title="about ServiceLoadException class" Url="html/630e7cea-4e65-f2fa-78fd-5893676aab98.htm" />
+    <HelpKINode Title="all members" Url="html/1801562c-5a7b-cfdc-e969-c9e7c138ae2a.htm" />
+    <HelpKINode Title="constructor" Url="html/3f6d8d7b-a205-e8e2-e67e-afbc8d1e7d0d.htm" />
+    <HelpKINode Title="events" Url="html/fb51dc3c-16f3-21df-f68a-0564196ad2f8.htm" />
+    <HelpKINode Title="methods" Url="html/02c84a37-a9cb-2eef-ef38-e32819a63933.htm" />
+    <HelpKINode Title="properties" Url="html/71134416-c9cc-e6f0-789e-b939c2339cda.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceLoadException.ServiceLoadException constructor" Url="html/3f6d8d7b-a205-e8e2-e67e-afbc8d1e7d0d.htm" />
+  <HelpKINode Title="SetBounds method" Url="html/1c6e13a2-cdbe-6d44-9049-494fbe29ac5a.htm" />
+  <HelpKINode Title="SetUp method" Url="html/141b003f-14e6-b0e2-44ed-26d398677759.htm" />
+  <HelpKINode Title="SetUp method" Url="html/2f870a7c-b542-c91d-3b88-2199fec57e10.htm" />
+  <HelpKINode Title="Show method" Url="html/922cec45-8bbf-e77c-7f5b-b14b66bf22ce.htm" />
+  <HelpKINode Title="ShowDialog method" Url="html/f3a9701a-6424-eb1e-e216-c80a62543670.htm" />
+  <HelpKINode Title="storeUser method" Url="html/6392bd7b-31e5-f9d4-374a-5d3880b0eb50.htm" />
+  <HelpKINode Title="storeUser method" Url="html/c6815ef3-8ffb-a270-2b67-af1f0e6b47f3.htm" />
+  <HelpKINode Title="storeUser method" Url="html/e17d831f-2d42-b534-2732-86ef9a3d79eb.htm" />
+  <HelpKINode Title="Suite property" Url="html/50ec456b-e2c3-e4c5-aa6d-24a968e7519d.htm" />
+  <HelpKINode Title="Suite property" Url="html/b182e6cd-e249-1e17-b178-79e11c2b5d65.htm" />
+  <HelpKINode Title="tearDown method" Url="html/199fa84d-4ac0-675c-6dfb-35741f5e6275.htm" />
+  <HelpKINode Title="tearDown method" Url="html/7359ba12-d6a0-d2ed-cec0-a76193e6c4de.htm" />
+  <HelpKINode Title="testEqualsUser method" Url="html/fc456dc5-8ee4-b9e6-6d17-3f0d8913b2a4.htm" />
+  <HelpKINode Title="testInvalidUser method" Url="html/f443d777-a75e-247c-b467-77be3cdccd97.htm" />
+  <HelpKINode Title="testNotEqualsUser method" Url="html/e663cdfb-027d-5036-5396-fb022658e9f1.htm" />
+  <HelpKINode Title="testStoreUser method" Url="html/0ff97647-b585-045d-83ea-ed36bdcc5a85.htm" />
+  <HelpKINode Title="testValidateUser method" Url="html/70c51e22-4c53-42ef-7b7f-949d31371121.htm" />
+  <HelpKINode Title="UpdateBounds method" Url="html/1d36a94d-726e-dc6f-b9ea-75bf1b580471.htm" />
+  <HelpKINode Title="User class" Url="html/079f635c-5c36-0077-d303-8960c6fd5d45.htm" />
+  <HelpKINode Title="User class" Url="html/b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm" />
+  <HelpKINode Title="User class">
+    <HelpKINode Title="about User class" Url="html/b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm" />
+    <HelpKINode Title="all members" Url="html/079f635c-5c36-0077-d303-8960c6fd5d45.htm" />
+    <HelpKINode Title="constructor" Url="html/a7718766-920a-0f8f-a086-a8c85fef7382.htm" />
+    <HelpKINode Title="methods" Url="html/c1d45935-73ba-a3dd-5fb2-ca6d7d920ede.htm" />
+    <HelpKINode Title="properties" Url="html/23f40a6d-7f8c-b3fe-2e22-33cc8cdb5747.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.Equals method" Url="html/ecb44709-ce42-b5a9-00b5-6880e3311426.htm" />
+  <HelpKINode Title="User.GetHashCode method" Url="html/9f1d5fdc-6753-f898-2014-1eb6a694aa02.htm" />
+  <HelpKINode Title="User.id property" Url="html/f6aac652-3480-5aae-665d-8b76d7176585.htm" />
+  <HelpKINode Title="User.password property" Url="html/b36fa38f-176c-113a-0b11-e8cfc297e477.htm" />
+  <HelpKINode Title="User.User constructor" Url="html/a7718766-920a-0f8f-a086-a8c85fef7382.htm" />
+  <HelpKINode Title="User.userName property" Url="html/a78d49ce-365a-8666-ba75-1e6f24829f90.htm" />
+  <HelpKINode Title="User.validate method" Url="html/f6dd4bf6-ab82-ab8e-8e1a-cdc40699c5d7.htm" />
+  <HelpKINode Title="UserHibernateImpl class" Url="html/5d738358-7570-4c9f-b41b-8de85e916f59.htm" />
+  <HelpKINode Title="UserHibernateImpl class" Url="html/7d347a09-7354-4a54-b287-9efbecbecac5.htm" />
+  <HelpKINode Title="UserHibernateImpl class">
+    <HelpKINode Title="about UserHibernateImpl class" Url="html/5d738358-7570-4c9f-b41b-8de85e916f59.htm" />
+    <HelpKINode Title="all members" Url="html/7d347a09-7354-4a54-b287-9efbecbecac5.htm" />
+    <HelpKINode Title="constructor" Url="html/674bc22e-4df2-0ea8-d9d5-1cd633a8f52b.htm" />
+    <HelpKINode Title="methods" Url="html/a3e03e2b-8a99-678c-2dd9-8c18f6454aa9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserHibernateImpl.deleteUser method" Url="html/6b03c6e4-b479-4130-131a-133dbad15641.htm" />
+  <HelpKINode Title="UserHibernateImpl.getUser method" Url="html/74d0b4f0-2532-e476-7655-a1c072332021.htm" />
+  <HelpKINode Title="UserHibernateImpl.storeUser method" Url="html/e17d831f-2d42-b534-2732-86ef9a3d79eb.htm" />
+  <HelpKINode Title="UserHibernateImpl.UserHibernateImpl constructor" Url="html/674bc22e-4df2-0ea8-d9d5-1cd633a8f52b.htm" />
+  <HelpKINode Title="userName property" Url="html/a78d49ce-365a-8666-ba75-1e6f24829f90.htm" />
+  <HelpKINode Title="UserSvcImplTestCase class" Url="html/1cf643f4-1c49-fa2d-83e5-9d85631a9e4e.htm" />
+  <HelpKINode Title="UserSvcImplTestCase class" Url="html/823653c6-b346-7c18-e194-9cc37675361f.htm" />
+  <HelpKINode Title="UserSvcImplTestCase class">
+    <HelpKINode Title="about UserSvcImplTestCase class" Url="html/823653c6-b346-7c18-e194-9cc37675361f.htm" />
+    <HelpKINode Title="all members" Url="html/1cf643f4-1c49-fa2d-83e5-9d85631a9e4e.htm" />
+    <HelpKINode Title="constructor" Url="html/9f747233-505b-46ad-290f-034de4acdc2b.htm" />
+    <HelpKINode Title="methods" Url="html/cd3bbc58-6e83-9009-bb8a-dbcb6d32727d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserSvcImplTestCase.SetUp method" Url="html/2f870a7c-b542-c91d-3b88-2199fec57e10.htm" />
+  <HelpKINode Title="UserSvcImplTestCase.tearDown method" Url="html/7359ba12-d6a0-d2ed-cec0-a76193e6c4de.htm" />
+  <HelpKINode Title="UserSvcImplTestCase.testStoreUser method" Url="html/0ff97647-b585-045d-83ea-ed36bdcc5a85.htm" />
+  <HelpKINode Title="UserSvcImplTestCase.UserSvcImplTestCase constructor" Url="html/9f747233-505b-46ad-290f-034de4acdc2b.htm" />
+  <HelpKINode Title="UserSvcMongoImpl class" Url="html/41a4e8e1-ec94-60d0-84d8-0484538830c8.htm" />
+  <HelpKINode Title="UserSvcMongoImpl class" Url="html/ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm" />
+  <HelpKINode Title="UserSvcMongoImpl class">
+    <HelpKINode Title="about UserSvcMongoImpl class" Url="html/ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm" />
+    <HelpKINode Title="all members" Url="html/41a4e8e1-ec94-60d0-84d8-0484538830c8.htm" />
+    <HelpKINode Title="constructor" Url="html/d7fb3825-882b-62bc-6cc9-1137cca2d333.htm" />
+    <HelpKINode Title="methods" Url="html/04674a4d-b847-8102-dffd-785cfe146227.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserSvcMongoImpl.deleteUser method" Url="html/408a2d9c-44c7-1322-5701-e1937f8cd42b.htm" />
+  <HelpKINode Title="UserSvcMongoImpl.getUser method" Url="html/987bf77c-6059-48a2-d8ef-667b4db5a7d9.htm" />
+  <HelpKINode Title="UserSvcMongoImpl.storeUser method" Url="html/c6815ef3-8ffb-a270-2b67-af1f0e6b47f3.htm" />
+  <HelpKINode Title="UserSvcMongoImpl.UserSvcMongoImpl constructor" Url="html/d7fb3825-882b-62bc-6cc9-1137cca2d333.htm" />
+  <HelpKINode Title="UserTestCase class" Url="html/0a43b84a-be28-58a9-ee84-c549ef291a47.htm" />
+  <HelpKINode Title="UserTestCase class" Url="html/c41f0640-7da0-d4a4-abdc-8ea58486a618.htm" />
+  <HelpKINode Title="UserTestCase class">
+    <HelpKINode Title="about UserTestCase class" Url="html/0a43b84a-be28-58a9-ee84-c549ef291a47.htm" />
+    <HelpKINode Title="all members" Url="html/c41f0640-7da0-d4a4-abdc-8ea58486a618.htm" />
+    <HelpKINode Title="constructor" Url="html/eaf4f2d3-ab15-8524-1d5f-781ff01afc91.htm" />
+    <HelpKINode Title="methods" Url="html/e0082e4c-e4fc-2097-d172-12d5f94e3a58.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserTestCase.SetUp method" Url="html/141b003f-14e6-b0e2-44ed-26d398677759.htm" />
+  <HelpKINode Title="UserTestCase.tearDown method" Url="html/199fa84d-4ac0-675c-6dfb-35741f5e6275.htm" />
+  <HelpKINode Title="UserTestCase.testEqualsUser method" Url="html/fc456dc5-8ee4-b9e6-6d17-3f0d8913b2a4.htm" />
+  <HelpKINode Title="UserTestCase.testInvalidUser method" Url="html/f443d777-a75e-247c-b467-77be3cdccd97.htm" />
+  <HelpKINode Title="UserTestCase.testNotEqualsUser method" Url="html/e663cdfb-027d-5036-5396-fb022658e9f1.htm" />
+  <HelpKINode Title="UserTestCase.testValidateUser method" Url="html/70c51e22-4c53-42ef-7b7f-949d31371121.htm" />
+  <HelpKINode Title="UserTestCase.UserTestCase constructor" Url="html/eaf4f2d3-ab15-8524-1d5f-781ff01afc91.htm" />
+  <HelpKINode Title="validate method" Url="html/f6dd4bf6-ab82-ab8e-8e1a-cdc40699c5d7.htm" />
+  <HelpKINode Title="Validate method" Url="html/4c3a0609-274e-5e12-21e2-b92d0d1e1e6c.htm" />
+  <HelpKINode Title="ValidateChildren method" Url="html/e044bf4e-3b13-cc03-94b7-1765ff30acb1.htm" />
+</HelpKI>

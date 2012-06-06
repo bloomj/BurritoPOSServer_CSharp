@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BurritoPOSServer</name>
+    </assembly>
+    <members>
+        <member name="T:BurritoPOSServer.service.Mongo.UserSvcMongoImpl">
+            <summary>
+            This service implementation uses MongoDB Driver to do basic CRUD operations with MongoDB for Employee objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOSServer.service.IUserSvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BurritoPOSServer.service.IService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.IUserSvc.storeUser(BurritoPOSServer.domain.User)">
+            <summary>
+            
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.IUserSvc.getUser(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.IUserSvc.deleteUser(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BurritoPOSServer.service.IUserSvc.NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.getUser(System.Int32)">
+            <summary>
+            This method retrieves a user.
+            </summary>
+            <param name="id">Unique ID of user to retrieve</param>
+            <returns>user object</returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.storeUser(BurritoPOSServer.domain.User)">
+            <summary>
+            This method stores a user.
+            </summary>
+            <param name="u">The user object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.deleteUser(System.Int32)">
+            <summary>
+            This method deletes a user.
+            </summary>
+            <param name="id">Unique ID of the user to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOSServer.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.domain.test.UserTestCase.SetUp">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:BurritoPOSServer.domain.test.UserTestCase.tearDown">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="T:BurritoPOSServer.Form1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.Form1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BurritoPOSServer.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BurritoPOSServer.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BurritoPOSServer.service.Hibernate.UserHibernateImpl">
+            <summary>
+            This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
+            </summary>
+        </member>
+        <member name="T:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl">
+            <summary>
+            This is the base implementation for the Hibernate service classes;
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.getUser(System.Int32)">
+            <summary>
+            This method retrieves a user.
+            </summary>
+            <param name="id">Unique ID of user to retrieve</param>
+            <returns>user object</returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.storeUser(BurritoPOSServer.domain.User)">
+            <summary>
+            This method stores a user.
+            </summary>
+            <param name="u">The user object to store</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.deleteUser(System.Int32)">
+            <summary>
+            This method deletes a user.
+            </summary>
+            <param name="id">Unique ID of the user to delete</param>
+            <returns>Success/Failure</returns>
+        </member>
+        <member name="T:BurritoPOSServer.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BurritoPOSServer.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BurritoPOSServer.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:BurritoPOSServer.service.Factory">
+            <summary>
+            This class is a service Factory that provides concrete service implementations.
+            </summary>
+        </member>
+        <member name="F:BurritoPOSServer.service.Factory.dLog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BurritoPOSServer.service.Factory.fProperties">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.Factory.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.Factory.getInstance">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Factory.getService(System.String)">
+            <summary>
+            This method returns a concrete class based on current configuration
+            </summary>
+            <param name="name">Name of the service</param>
+            <returns>Concrete service class</returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Factory.getImplName(System.String)">
+            <summary>
+            This method gets the required implementation name for service requested.
+            </summary>
+            <param name="name">Name of service</param>
+            <returns>Concrete class to instantiate</returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Factory.getUserSvc">
+            <summary>
+            Static call to Serializable implementation of User service layer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BurritoPOSServer.service.Factory.parse(System.String)">
+            <summary>
+            This method parses the configuration xml file
+            </summary>
+            <param name="filePath">File path to configuration xml</param>
+        </member>
+        <member name="T:BurritoPOSServer.domain.User">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.domain.User.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.domain.User.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_id"></param>
+            <param name="_userName"></param>
+            <param name="_password"></param>
+        </member>
+        <member name="M:BurritoPOSServer.domain.User.validate">
+            <summary>
+            validates the object
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOSServer.domain.User.Equals(System.Object)">
+            <summary>
+            Checks if the objects are equal
+            </summary>
+            <returns>success or failure</returns>
+        </member>
+        <member name="M:BurritoPOSServer.domain.User.GetHashCode">
+            <summary>
+            Returns base object GetHashCode
+            </summary>
+            <returns>Unique Hash of Object</returns>
+        </member>
+        <member name="P:BurritoPOSServer.domain.User.userName">
+            <summary>
+            User's username
+            </summary>
+        </member>
+        <member name="P:BurritoPOSServer.domain.User.password">
+            <summary>
+            User's password
+            </summary>
+        </member>
+        <member name="P:BurritoPOSServer.domain.User.id">
+            <summary>
+            Unique ID of User
+            </summary>
+        </member>
+        <member name="T:BurritoPOSServer.service.test.UserSvcImplTestCase">
+            <summary>
+            Unit test fixture for user service implementation unit tests
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.test.UserSvcImplTestCase.SetUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.test.UserSvcImplTestCase.tearDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BurritoPOSServer.service.test.UserSvcImplTestCase.testStoreUser">
+            <summary>
+            Unit test for user service implementation
+            </summary>
+        </member>
+    </members>
+</doc>
