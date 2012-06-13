@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.IO;
 using log4net;
+using log4net.Config;
 using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
@@ -25,6 +26,14 @@ namespace BurritoPOSServer.service.Hibernate
         private static ILog dLog = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         private static readonly Configuration config = new Configuration();
         private static ISessionFactory sessionFactory = null;
+
+        /// <summary>
+        /// Default Constructor
+        /// </summary>
+        public BaseSvcHibernateImpl()
+        {
+            XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
+        }
 
         //Hibernate via XML
         /*private static ISessionFactory getSessionFactory() {

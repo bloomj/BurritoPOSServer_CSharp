@@ -38,3 +38,5 @@ C:\Users\james.bloom\documents\visual studio 2010\Projects\BurritoPOSServer\Burr
 C:\Users\james.bloom\documents\visual studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\bin\Release\NHibernate.ByteCode.Castle.xml
 C:\Users\james.bloom\documents\visual studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\bin\Release\Spring.Core.pdb
 C:\Users\james.bloom\documents\visual studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\bin\Release\Spring.Core.xml
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\obj\x86\Release\BurritoPOSServer.presentation.MainUI.resources
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\obj\x86\Release\BurritoPOSServer.presentation.StatusUI.resources

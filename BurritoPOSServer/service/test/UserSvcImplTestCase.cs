@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 using log4net;
+using log4net.Config;
 using NUnit.Framework;
 using BurritoPOSServer.domain;
 
@@ -24,8 +26,9 @@ namespace BurritoPOSServer.service.test
         [SetUp]
         protected void SetUp()
         {
+            XmlConfigurator.Configure(new FileInfo("config/log4net.properties"));
             factory = Factory.getInstance();
-            u = new User(1, "JimB", "pass123");
+            u = new User(1, "JimB", BCrypt.HashPassword("pass123", BCrypt.GenerateSalt()));
         }
 
         /// <summary>
@@ -51,15 +54,17 @@ namespace BurritoPOSServer.service.test
                 //week 4
                 IUserSvc ics = (IUserSvc)factory.getService("IUserSvc");
 
-                // First let's store the Employee
+                // First let's store the user
                 Assert.True(ics.storeUser(u));
 
                 // Then let's read it back in
                 u = ics.getUser(u.id);
                 Assert.True(u.validate());
 
-                // Update Employee
-                u.password = "pass12345";
+                // Update user
+                Assert.True(BCrypt.CheckPassword("pass123", u.password));
+
+                u.password = BCrypt.HashPassword("pass12345", BCrypt.GenerateSalt());
                 Assert.True(ics.storeUser(u));
 
                 // Finally, let's cleanup the file that was created
@@ -67,7 +72,7 @@ namespace BurritoPOSServer.service.test
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exception in testStoreUser: " + e.Message + "\n" + e.StackTrace);
+                dLog.Error("Exception in testStoreUser: " + e.Message + "\n" + e.StackTrace);
                 Assert.Fail(e.Message + "\n" + e.StackTrace);
             }
         }

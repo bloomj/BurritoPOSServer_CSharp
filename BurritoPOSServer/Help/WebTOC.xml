@@ -1,69 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="104fe557-0593-4d1d-b9d0-04a8836dc738" Title="BurritoPOSServer Namespace" Url="html/2b29c4dd-5eb6-97a0-eff5-8e15ce8174f0.htm">
-    <HelpTOCNode Id="07b64b7c-309b-4dc6-9b73-48685e7936a3" Title="Form1 Class" Url="html/f5f273fa-5fb1-aef7-efd3-a09ad4858137.htm">
-      <HelpTOCNode Title="Form1 Members" Url="html/98748099-eca4-f2a6-25dc-340795fc9e24.htm" />
-      <HelpTOCNode Title="Form1 Constructor " Url="html/574c12fe-cc3c-19e0-e99c-adfa99dc4900.htm" />
-      <HelpTOCNode Id="9c7f1701-d641-499e-8f33-3ddee182efc4" Title="Form1 Methods" Url="html/dc7a7c51-0491-dd2f-2b15-6f35e09b9ef0.htm">
-        <HelpTOCNode Title="AccessibilityNotifyClients Method " Url="html/57aba401-7871-57aa-90c1-39a5d410da53.htm" />
-        <HelpTOCNode Title="BeginInvoke Method " Url="html/7dadfc96-0f78-abfa-6eec-71d1e769278a.htm" />
-        <HelpTOCNode Id="3668344d-c099-4418-bedf-a2400b07dbc1" Title="Dispose Method " Url="html/3b8757ba-043c-4d4a-62ad-679648b5d7c3.htm">
-          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/1007546e-bf22-f33c-3826-e246333ef0f2.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="GetChildAtPoint Method " Url="html/0ffbfed5-00cc-c482-69ca-ff4289d80cce.htm" />
-        <HelpTOCNode Title="Invalidate Method " Url="html/c4eff9e0-aebc-f0bc-8968-bb90857795d5.htm" />
-        <HelpTOCNode Title="Invoke Method " Url="html/d05c96f7-7983-c67e-41c8-245e7c40da49.htm" />
-        <HelpTOCNode Title="MemberwiseClone Method " Url="html/12fc9e38-d84d-917f-5a8f-a4621732fb47.htm" />
-        <HelpTOCNode Title="PerformLayout Method " Url="html/d82ea3de-a9b0-722b-d60b-fe23fd854910.htm" />
-        <HelpTOCNode Title="ResumeLayout Method " Url="html/dc02f887-884e-b9f4-21d5-0bc1e7f0cc62.htm" />
-        <HelpTOCNode Title="RtlTranslateAlignment Method " Url="html/af1f2add-7c76-e883-ccd7-fbae494660a6.htm" />
-        <HelpTOCNode Title="Scale Method " Url="html/cae287c4-a923-6d92-cf65-49313d64ef9e.htm" />
-        <HelpTOCNode Title="Select Method " Url="html/ad9c16e0-204b-b905-3284-38041e582de9.htm" />
-        <HelpTOCNode Title="SetBounds Method " Url="html/1c6e13a2-cdbe-6d44-9049-494fbe29ac5a.htm" />
-        <HelpTOCNode Title="Show Method " Url="html/922cec45-8bbf-e77c-7f5b-b14b66bf22ce.htm" />
-        <HelpTOCNode Title="ShowDialog Method " Url="html/f3a9701a-6424-eb1e-e216-c80a62543670.htm" />
-        <HelpTOCNode Title="UpdateBounds Method " Url="html/1d36a94d-726e-dc6f-b9ea-75bf1b580471.htm" />
-        <HelpTOCNode Title="Validate Method " Url="html/4c3a0609-274e-5e12-21e2-b92d0d1e1e6c.htm" />
-        <HelpTOCNode Title="ValidateChildren Method " Url="html/e044bf4e-3b13-cc03-94b7-1765ff30acb1.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="Form1 Properties" Url="html/b935d52f-0d3e-bd0e-f118-70cc270d91d5.htm" />
-      <HelpTOCNode Title="Form1 Events" Url="html/7832bab0-2322-f6d5-9c20-7d7980c67fd8.htm" />
-    </HelpTOCNode>
+  <HelpTOCNode Id="fa0b0ed9-f891-428d-acc1-8e6e7d0bef29" Title="BurritoPOSServer Namespace" Url="html/2b29c4dd-5eb6-97a0-eff5-8e15ce8174f0.htm">
     <HelpTOCNode Title="Program Class" Url="html/957933ee-a00a-76b7-4c76-c769ec032e4e.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="24459c09-5ce2-4b67-8ce7-2f5729ab3e03" Title="BurritoPOSServer.domain Namespace" Url="html/70d04d43-9e0b-7166-a5be-0c6760cce25d.htm">
-    <HelpTOCNode Id="7f3c2159-6e64-490e-9cef-6c1d1d83b637" Title="User Class" Url="html/b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm">
+  <HelpTOCNode Id="8812c244-c55e-4ff3-aa98-9babfaf99047" Title="BurritoPOSServer.business Namespace" Url="html/b00a12bb-c348-8c7c-7af6-16962336fba8.htm">
+    <HelpTOCNode Id="4775be20-71cf-45c3-81e3-0078740cfb42" Title="ConnectionManager Class" Url="html/ee5b7d36-763d-5220-41fa-a9944587bf6b.htm">
+      <HelpTOCNode Title="ConnectionManager Members" Url="html/1d4b11ce-b188-38cb-92d8-c07877a87802.htm" />
+      <HelpTOCNode Title="ConnectionManager Constructor " Url="html/2d5387e6-8c8a-bd8f-0971-486965b23fcc.htm" />
+      <HelpTOCNode Id="31d3d045-c129-4c76-82ec-e6450c4fc7b0" Title="ConnectionManager Methods" Url="html/b483d075-90cd-2807-3270-24e6f82f5fdd.htm">
+        <HelpTOCNode Title="getNumberOfConnections Method " Url="html/34831e88-d4ca-2eed-9118-474a3e7923db.htm" />
+        <HelpTOCNode Title="isConnected Method " Url="html/73beaf85-272b-da85-bd8c-8dbb8660a2e8.htm" />
+        <HelpTOCNode Title="setExit Method " Url="html/504d33a1-8e47-4889-3f6c-9615cd85ef84.htm" />
+        <HelpTOCNode Title="startServer Method " Url="html/86418b61-ecc8-767c-c82f-72572d7476c2.htm" />
+        <HelpTOCNode Id="57c3819f-bb83-445d-8ff8-0a7f2ea966ee" Title="updateStatus Method " Url="html/306f994e-871d-d634-c0c6-dd7bbfbdaeb1.htm">
+          <HelpTOCNode Title="updateStatus Method (String)" Url="html/f6c9f6b6-bc95-707a-f1b8-6dcee8408b68.htm" />
+          <HelpTOCNode Title="updateStatus Method (MessageArgs)" Url="html/3fdd6576-c7f2-9e7d-afc9-c7f0ace2b376.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="95468c77-f407-40af-b0e1-2d2c9528bc0a" Title="ConnectionManager Events" Url="html/98b77636-1e05-70bd-a3ef-d2614d6efbd8.htm">
+        <HelpTOCNode Title="StatusUpdate Event" Url="html/76b614f9-4d6d-ee86-8c23-b8a6bca274fd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f157ab1c-fc5f-48d8-bad5-f89d2935e56b" Title="SocketManager Class" Url="html/5fe94853-df77-4771-b08a-c1c3be34911f.htm">
+      <HelpTOCNode Title="SocketManager Members" Url="html/702fa147-27d5-8ca9-a3f6-319ba53e61e1.htm" />
+      <HelpTOCNode Id="e4b685f0-4f19-4d5d-ac82-7246b93ca9ab" Title="SocketManager Constructor " Url="html/35f45085-bd4a-4ab7-1319-dc22eb077acc.htm">
+        <HelpTOCNode Title="SocketManager Constructor (Socket)" Url="html/c7db0b20-152c-06cf-462a-b6c54ca8e2af.htm" />
+        <HelpTOCNode Title="SocketManager Constructor (Socket, ConnectionManager)" Url="html/99ad66a0-064d-39c2-5704-7829c2f8d3f7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ea4d17e3-eadc-49b0-af77-1b08f76bef65" Title="SocketManager Methods" Url="html/de175a43-00fc-d73a-de87-4095cd441c24.htm">
+        <HelpTOCNode Title="isConnected Method " Url="html/fdb4291a-2378-a835-96c8-fea8f2dc1278.htm" />
+        <HelpTOCNode Title="run Method " Url="html/792d2f4e-e07f-e9ec-0934-da2357a45084.htm" />
+        <HelpTOCNode Title="setExit Method " Url="html/243630c4-aa42-a935-cc35-cd355ac46a42.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3e8ffcbe-dcef-4350-aaaa-ffc18513139c" Title="BurritoPOSServer.business.test Namespace" Url="html/96d3660c-b9fe-837f-4862-b0929c546029.htm">
+    <HelpTOCNode Id="ddbc465d-703b-46bc-804e-6aaa5d562bdf" Title="AllTests Class" Url="html/75ea7183-e983-ad33-cbfe-71d1b61a6359.htm">
+      <HelpTOCNode Title="AllTests Members" Url="html/90d3c679-c9c6-0380-5d8d-a1d41a11b148.htm" />
+      <HelpTOCNode Title="AllTests Constructor " Url="html/78a11100-09c3-7cf0-317e-a1acb89cef95.htm" />
+      <HelpTOCNode Title="AllTests Methods" Url="html/36e69f6f-ea61-520a-2599-c867b47efada.htm" />
+      <HelpTOCNode Id="bb692e3c-0125-4bc7-bcec-31d28600d6f4" Title="AllTests Properties" Url="html/4c46b9b9-bbd1-6f27-f28d-f94916c4a094.htm">
+        <HelpTOCNode Title="Suite Property " Url="html/6b692441-6763-b592-4860-3afc01163c9d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8c0845e6-2889-46cf-9c8c-6a7841c7ff5e" Title="ConnectionManagerTestCase Class" Url="html/32c17fd2-de61-a5ff-9d1c-1fbf0dac2169.htm">
+      <HelpTOCNode Title="ConnectionManagerTestCase Members" Url="html/0cf6aa09-1614-4232-0a31-34fd588fd858.htm" />
+      <HelpTOCNode Title="ConnectionManagerTestCase Constructor " Url="html/a2d301fd-b3a7-e731-543c-d252f139dd1c.htm" />
+      <HelpTOCNode Id="0e98f924-a60d-4bd9-9713-959f3ca25ee4" Title="ConnectionManagerTestCase Methods" Url="html/1cd028fe-03fb-4d20-a053-b81b72a6a172.htm">
+        <HelpTOCNode Title="SetUp Method " Url="html/58ed8ab7-dccf-7077-b642-956a2d6abca6.htm" />
+        <HelpTOCNode Title="tearDown Method " Url="html/2ecd6691-4c32-304a-5ad9-914f580cca17.htm" />
+        <HelpTOCNode Title="testConnectionManager Method " Url="html/e3728ca1-5a86-8a94-a7b6-a50f51df7f1c.htm" />
+        <HelpTOCNode Title="testImproperShutdown Method " Url="html/01f0aa5e-bcc7-f605-0d8f-7a7be943cc92.htm" />
+        <HelpTOCNode Title="testSocketManager Method " Url="html/326b7b8a-490b-af1b-9192-6381ca2b1971.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="43b8051d-55f2-4c70-8e1a-515800539b6c" Title="BurritoPOSServer.domain Namespace" Url="html/70d04d43-9e0b-7166-a5be-0c6760cce25d.htm">
+    <HelpTOCNode Id="1af66d63-cff7-4adb-81ed-7749af031a45" Title="User Class" Url="html/b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm">
       <HelpTOCNode Title="User Members" Url="html/079f635c-5c36-0077-d303-8960c6fd5d45.htm" />
-      <HelpTOCNode Id="b7d02f0c-cce7-4065-87ca-7236920c72e5" Title="User Constructor " Url="html/a7718766-920a-0f8f-a086-a8c85fef7382.htm">
+      <HelpTOCNode Id="2af3cf6e-6e99-420f-a45a-4527171e8ede" Title="User Constructor " Url="html/a7718766-920a-0f8f-a086-a8c85fef7382.htm">
         <HelpTOCNode Title="User Constructor " Url="html/2ed6a4d3-ae1a-8677-bc93-2201b1439614.htm" />
         <HelpTOCNode Title="User Constructor (Int32, String, String)" Url="html/0e8fbb28-9549-5716-46ed-2ec60e4835c5.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c84ede9d-047c-4eec-918d-f13ce5222511" Title="User Methods" Url="html/c1d45935-73ba-a3dd-5fb2-ca6d7d920ede.htm">
+      <HelpTOCNode Id="491425b9-403d-4867-90a5-eee89df3c6f9" Title="User Methods" Url="html/c1d45935-73ba-a3dd-5fb2-ca6d7d920ede.htm">
         <HelpTOCNode Title="Equals Method " Url="html/ecb44709-ce42-b5a9-00b5-6880e3311426.htm" />
         <HelpTOCNode Title="GetHashCode Method " Url="html/9f1d5fdc-6753-f898-2014-1eb6a694aa02.htm" />
         <HelpTOCNode Title="validate Method " Url="html/f6dd4bf6-ab82-ab8e-8e1a-cdc40699c5d7.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="bead7b38-b28b-4e72-85ff-68c5a39a3eb3" Title="User Properties" Url="html/23f40a6d-7f8c-b3fe-2e22-33cc8cdb5747.htm">
+      <HelpTOCNode Id="0e0cb734-177c-49ad-95fa-8467ddfbf3fd" Title="User Properties" Url="html/23f40a6d-7f8c-b3fe-2e22-33cc8cdb5747.htm">
         <HelpTOCNode Title="id Property " Url="html/f6aac652-3480-5aae-665d-8b76d7176585.htm" />
         <HelpTOCNode Title="password Property " Url="html/b36fa38f-176c-113a-0b11-e8cfc297e477.htm" />
         <HelpTOCNode Title="userName Property " Url="html/a78d49ce-365a-8666-ba75-1e6f24829f90.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="bbbcbc7f-2b3b-4d39-8b3d-b091df99bac4" Title="BurritoPOSServer.domain.test Namespace" Url="html/d2ed0f60-9508-ac64-04ee-7ff95e23755f.htm">
-    <HelpTOCNode Id="5fda2fd4-22a3-45fc-9657-410e38f7df2d" Title="AllTests Class" Url="html/d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm">
+  <HelpTOCNode Id="9693f066-a456-488a-9296-f30e23e05338" Title="BurritoPOSServer.domain.test Namespace" Url="html/d2ed0f60-9508-ac64-04ee-7ff95e23755f.htm">
+    <HelpTOCNode Id="6f4cb09d-a282-47b1-8da1-50852a180f7e" Title="AllTests Class" Url="html/d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm">
       <HelpTOCNode Title="AllTests Members" Url="html/b7cd3f8c-5002-5d45-ec60-762dd0839394.htm" />
       <HelpTOCNode Title="AllTests Constructor " Url="html/53dce249-8f04-bc9d-6c94-7725c4a4aeb9.htm" />
       <HelpTOCNode Title="AllTests Methods" Url="html/7721d946-26d8-7b99-5839-e071afb326ee.htm" />
-      <HelpTOCNode Id="78314e9a-77c3-4a30-9618-083261805ffe" Title="AllTests Properties" Url="html/3ac740d4-116b-3a68-c922-cf9a7bcb4e10.htm">
+      <HelpTOCNode Id="52625957-1b75-451b-99d8-e2d6dc9d97ea" Title="AllTests Properties" Url="html/3ac740d4-116b-3a68-c922-cf9a7bcb4e10.htm">
         <HelpTOCNode Title="Suite Property " Url="html/50ec456b-e2c3-e4c5-aa6d-24a968e7519d.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="44ab571b-2d46-46c1-aa01-bdbacba6f14a" Title="UserTestCase Class" Url="html/0a43b84a-be28-58a9-ee84-c549ef291a47.htm">
+    <HelpTOCNode Id="a46b130d-21d9-458c-8195-66ab0243f328" Title="UserTestCase Class" Url="html/0a43b84a-be28-58a9-ee84-c549ef291a47.htm">
       <HelpTOCNode Title="UserTestCase Members" Url="html/c41f0640-7da0-d4a4-abdc-8ea58486a618.htm" />
       <HelpTOCNode Title="UserTestCase Constructor " Url="html/eaf4f2d3-ab15-8524-1d5f-781ff01afc91.htm" />
-      <HelpTOCNode Id="e4449a5a-23ea-44ee-93ef-e7e4fa6ba535" Title="UserTestCase Methods" Url="html/e0082e4c-e4fc-2097-d172-12d5f94e3a58.htm">
+      <HelpTOCNode Id="e39d0177-ffd3-46dc-a9af-bf7a6edefe03" Title="UserTestCase Methods" Url="html/e0082e4c-e4fc-2097-d172-12d5f94e3a58.htm">
         <HelpTOCNode Title="SetUp Method " Url="html/141b003f-14e6-b0e2-44ed-26d398677759.htm" />
         <HelpTOCNode Title="tearDown Method " Url="html/199fa84d-4ac0-675c-6dfb-35741f5e6275.htm" />
         <HelpTOCNode Title="testEqualsUser Method " Url="html/fc456dc5-8ee4-b9e6-6d17-3f0d8913b2a4.htm" />
@@ -73,10 +97,10 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="96b1c2a5-1f30-47cf-ba20-97039dc85ac6" Title="BurritoPOSServer.exception Namespace" Url="html/5bb95aea-ed3a-39d2-786b-7e35428f6144.htm">
-    <HelpTOCNode Id="1b7abb1e-c5a3-480d-b80c-cc498c70ebfa" Title="ServiceLoadException Class" Url="html/630e7cea-4e65-f2fa-78fd-5893676aab98.htm">
+  <HelpTOCNode Id="b705021f-0166-4ffe-af5e-0929834bc222" Title="BurritoPOSServer.exception Namespace" Url="html/5bb95aea-ed3a-39d2-786b-7e35428f6144.htm">
+    <HelpTOCNode Id="8d12a249-3bbb-4067-950c-3129d292bbc2" Title="ServiceLoadException Class" Url="html/630e7cea-4e65-f2fa-78fd-5893676aab98.htm">
       <HelpTOCNode Title="ServiceLoadException Members" Url="html/1801562c-5a7b-cfdc-e969-c9e7c138ae2a.htm" />
-      <HelpTOCNode Id="674973dd-281c-4791-8c93-d1dc6ab2bb5a" Title="ServiceLoadException Constructor " Url="html/3f6d8d7b-a205-e8e2-e67e-afbc8d1e7d0d.htm">
+      <HelpTOCNode Id="35b2525b-1348-4e29-aa25-d4b6f0137346" Title="ServiceLoadException Constructor " Url="html/3f6d8d7b-a205-e8e2-e67e-afbc8d1e7d0d.htm">
         <HelpTOCNode Title="ServiceLoadException Constructor (String)" Url="html/00316266-6da5-fc46-6140-0683321224fe.htm" />
         <HelpTOCNode Title="ServiceLoadException Constructor (String, Exception)" Url="html/b6ffa648-cbe6-f73b-6394-b8bd25380d54.htm" />
       </HelpTOCNode>
@@ -85,10 +109,77 @@
       <HelpTOCNode Title="ServiceLoadException Events" Url="html/fb51dc3c-16f3-21df-f68a-0564196ad2f8.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="e8f5b20d-b43f-4923-9dff-e40428225433" Title="BurritoPOSServer.service Namespace" Url="html/5ebb491a-b3fa-257e-ff05-e0e381e7a062.htm">
-    <HelpTOCNode Id="8584cfa6-5961-4bb8-a093-29daaafdf51c" Title="Factory Class" Url="html/f116b574-3a46-971f-73ee-f321d3a8e7f5.htm">
+  <HelpTOCNode Id="3efc0acd-c6ab-4bd6-ba02-003e7f1c59f9" Title="BurritoPOSServer.presentation Namespace" Url="html/d74fa1f0-ac07-49ce-8465-6c50cfa80597.htm">
+    <HelpTOCNode Id="025872b0-e5c8-4536-9a1d-26ec18417bfe" Title="MainUI Class" Url="html/ad0f2cd3-6f41-6b42-8722-ecdd57d1220a.htm">
+      <HelpTOCNode Title="MainUI Members" Url="html/bedf782e-befa-4294-3c28-b687092353be.htm" />
+      <HelpTOCNode Title="MainUI Constructor " Url="html/71ae98ea-c247-7969-c9b0-85dd12207d7a.htm" />
+      <HelpTOCNode Id="b217107a-2387-4948-9604-94952e67f6f5" Title="MainUI Methods" Url="html/933a17b6-2d81-bd75-c4e5-bcd8b7445e8b.htm">
+        <HelpTOCNode Title="AccessibilityNotifyClients Method " Url="html/04212685-8706-670a-b5de-4bd72462254f.htm" />
+        <HelpTOCNode Title="BeginInvoke Method " Url="html/7b6d62ef-f956-19ac-c22d-51f9be3be0e8.htm" />
+        <HelpTOCNode Id="05b7d611-3c3c-4a77-98b8-d4e9aa567f13" Title="Dispose Method " Url="html/b980622b-f75b-a9bf-ca59-13da6cae6ea7.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/3125f6f2-3f82-c799-53b8-b06a91fae5d3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetChildAtPoint Method " Url="html/932355b0-988f-37d2-c525-7f12615a5bcc.htm" />
+        <HelpTOCNode Title="Invalidate Method " Url="html/bc79b88c-cab7-3685-e3e5-18fdd9a8ef2f.htm" />
+        <HelpTOCNode Title="Invoke Method " Url="html/7fc05d9d-4a37-2186-f7d5-1d077bb1715c.htm" />
+        <HelpTOCNode Title="MemberwiseClone Method " Url="html/bcad1ea2-d111-65ca-55df-dbf561891e85.htm" />
+        <HelpTOCNode Title="PerformLayout Method " Url="html/fd39c7fa-3e73-d3ec-821f-cf4ae3c693ec.htm" />
+        <HelpTOCNode Title="ResumeLayout Method " Url="html/051197f9-5464-3e84-ca30-083565f3b450.htm" />
+        <HelpTOCNode Title="RtlTranslateAlignment Method " Url="html/fa5aadde-7c65-4e3a-960c-980bfd707ac5.htm" />
+        <HelpTOCNode Title="Scale Method " Url="html/733671de-1a92-1d76-6248-8762e688f91a.htm" />
+        <HelpTOCNode Title="Select Method " Url="html/401fb21d-7816-8deb-0e26-9f8cd445625f.htm" />
+        <HelpTOCNode Title="SetBounds Method " Url="html/4497f09c-ebe5-c84e-2fc6-049601980798.htm" />
+        <HelpTOCNode Title="Show Method " Url="html/4d4961cb-f203-c88d-afe0-fa31332ef7d5.htm" />
+        <HelpTOCNode Title="ShowDialog Method " Url="html/b0bb6408-50ed-92ee-782b-659b4c769e7e.htm" />
+        <HelpTOCNode Title="UpdateBounds Method " Url="html/3065c8cc-90b5-c62b-7d51-18b78d297765.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/204a0ec3-b4ea-47c1-1c4e-123d5c38750a.htm" />
+        <HelpTOCNode Title="ValidateChildren Method " Url="html/dd2e3b72-cb57-af87-8427-49936f4111ab.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MainUI Properties" Url="html/773d8efb-2666-c0fe-a330-c5eefe5da705.htm" />
+      <HelpTOCNode Title="MainUI Events" Url="html/5063ab2c-bff1-4d57-97a1-6ff221e568c9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d397df46-ffa1-4200-903b-813684def1da" Title="MessageArgs Class" Url="html/8b0057ef-fc90-3e52-6484-2c57c083a400.htm">
+      <HelpTOCNode Title="MessageArgs Members" Url="html/89132f3b-801d-7a9c-7c8b-2e35777ab690.htm" />
+      <HelpTOCNode Title="MessageArgs Constructor " Url="html/9245db49-71a1-507a-01a5-ccc6b9d71903.htm" />
+      <HelpTOCNode Title="MessageArgs Methods" Url="html/95ec5b09-862a-f320-65a9-97e4a2a96339.htm" />
+      <HelpTOCNode Id="a12aece6-989b-486f-b4ba-9e3a1d0bb0f3" Title="MessageArgs Properties" Url="html/b6400f8c-eb20-77a0-c5bd-02fd70cd4fe3.htm">
+        <HelpTOCNode Title="msg Property " Url="html/1d0bca1c-5768-659e-e744-6d8b749a3a27.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1b5d9e4b-ea0e-4724-b453-2a6b161c9e06" Title="StatusUI Class" Url="html/f64149a7-9b2f-d816-6755-92afeff7f049.htm">
+      <HelpTOCNode Title="StatusUI Members" Url="html/d15442d0-f56d-14c4-218a-2551fa6e071b.htm" />
+      <HelpTOCNode Title="StatusUI Constructor " Url="html/133412d5-19ec-6ace-8577-cd7069a96a11.htm" />
+      <HelpTOCNode Id="5f4807a7-06ff-4f9f-b271-bdd8f2d1c67b" Title="StatusUI Methods" Url="html/6f387d5c-a244-1e25-9a6e-37e4cf7bfe61.htm">
+        <HelpTOCNode Title="AccessibilityNotifyClients Method " Url="html/462fa66d-a243-e454-ef3f-20416b3b3a0b.htm" />
+        <HelpTOCNode Title="BeginInvoke Method " Url="html/0d96a00d-6732-f25e-048f-4517a6c7b9dd.htm" />
+        <HelpTOCNode Id="c87501b0-aec9-4d29-8ce0-db99308b680a" Title="Dispose Method " Url="html/c12b90b5-8a99-608f-b409-bc66a9b42950.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/3aa194b7-5609-cf8f-926a-213a09347b43.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetChildAtPoint Method " Url="html/eece4fcb-1d8c-a0fe-594f-ad7dc37e7ca0.htm" />
+        <HelpTOCNode Title="Invalidate Method " Url="html/0fae1e2e-e1fb-1f20-5046-7f5784e57692.htm" />
+        <HelpTOCNode Title="Invoke Method " Url="html/6c13a754-f05b-fd2b-634c-32ba3546b39d.htm" />
+        <HelpTOCNode Title="MemberwiseClone Method " Url="html/98420650-73a4-cffa-4a04-02fac8fabcfe.htm" />
+        <HelpTOCNode Title="PerformLayout Method " Url="html/0996c231-d8ea-b235-8096-ea62a1ebb355.htm" />
+        <HelpTOCNode Title="ResumeLayout Method " Url="html/e360d65a-9af3-6d1c-70f0-ca555e6cef5d.htm" />
+        <HelpTOCNode Title="RtlTranslateAlignment Method " Url="html/01293183-dd5e-c993-1b0b-125f8637e4d8.htm" />
+        <HelpTOCNode Title="Scale Method " Url="html/abe08296-6f7a-e363-d078-e4e7a9c0ccc2.htm" />
+        <HelpTOCNode Title="Select Method " Url="html/52e908c6-54ed-a8b0-ab67-5185747512e6.htm" />
+        <HelpTOCNode Title="SetBounds Method " Url="html/127f6e3c-3e53-aebf-abf1-375919007155.htm" />
+        <HelpTOCNode Title="Show Method " Url="html/0bbaee34-3d8b-ce5e-412a-1cbcf8d809df.htm" />
+        <HelpTOCNode Title="ShowDialog Method " Url="html/7af615a4-c054-0742-c1e1-f76d99d52167.htm" />
+        <HelpTOCNode Title="UpdateBounds Method " Url="html/e5ea0bfd-a7d1-1efb-7fd1-548fa31c8bde.htm" />
+        <HelpTOCNode Title="updateStatus Method " Url="html/1c29f112-d3b3-2472-b918-1d1939579c86.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/d2192cf8-261a-2fe6-f441-6ada52a16812.htm" />
+        <HelpTOCNode Title="ValidateChildren Method " Url="html/e6d92d72-e377-0cea-5c82-2a9bdf468353.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StatusUI Properties" Url="html/5cc716d9-313e-febd-6a3a-33579c9c175e.htm" />
+      <HelpTOCNode Title="StatusUI Events" Url="html/981b50ce-dcb7-aa31-31c9-1c2e08a35e40.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b8bde599-35fa-46ae-8ab4-7447aab7fdd9" Title="BurritoPOSServer.service Namespace" Url="html/5ebb491a-b3fa-257e-ff05-e0e381e7a062.htm">
+    <HelpTOCNode Id="38a06f0b-a275-4300-b295-192fe2986759" Title="Factory Class" Url="html/f116b574-3a46-971f-73ee-f321d3a8e7f5.htm">
       <HelpTOCNode Title="Factory Members" Url="html/b2609aec-c7cf-7c9a-c25b-256817a86c49.htm" />
-      <HelpTOCNode Id="dea8b7cb-c549-47f5-b528-0219643b4d73" Title="Factory Methods" Url="html/c3a81839-ede4-9df6-badd-f8a66498637e.htm">
+      <HelpTOCNode Id="3f78b988-f78d-40bc-ae28-eeeada7980b4" Title="Factory Methods" Url="html/c3a81839-ede4-9df6-badd-f8a66498637e.htm">
         <HelpTOCNode Title="getInstance Method " Url="html/e67f9d30-b421-b18c-cd66-8d15130b2d2d.htm" />
         <HelpTOCNode Title="getService Method " Url="html/4db877db-0e59-1f71-3134-48262e043324.htm" />
         <HelpTOCNode Title="getUserSvc Method " Url="html/c08d8ae2-330e-17c6-2b65-09ab1985431d.htm" />
@@ -96,60 +187,63 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="IService Interface" Url="html/45365bc5-fa8e-f491-45b2-c9d044141b24.htm" />
-    <HelpTOCNode Id="bd104a54-bbc9-4637-8815-a539a3a3d658" Title="IUserSvc Interface" Url="html/0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm">
+    <HelpTOCNode Id="c63b3dda-f1e4-4e88-8171-7a6684611e76" Title="IUserSvc Interface" Url="html/0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm">
       <HelpTOCNode Title="IUserSvc Members" Url="html/c1d988b5-a0bb-d05f-287b-352539602208.htm" />
-      <HelpTOCNode Id="b977a715-1a8c-4a52-9b66-875d752dadf5" Title="IUserSvc Methods" Url="html/72c09587-8a13-0b30-8556-f5e9f5fdac88.htm">
+      <HelpTOCNode Id="7d278be2-561d-407a-90ef-1067606d788d" Title="IUserSvc Methods" Url="html/72c09587-8a13-0b30-8556-f5e9f5fdac88.htm">
         <HelpTOCNode Title="deleteUser Method " Url="html/7b3d8dee-c7e4-f7b8-2d86-06468a0a6368.htm" />
+        <HelpTOCNode Title="getAllUsers Method " Url="html/7f6b2e89-ce2c-0c22-29a3-fc4692056665.htm" />
         <HelpTOCNode Title="getUser Method " Url="html/5c92fd3f-7dd3-4c1a-d51b-d163337cbf56.htm" />
         <HelpTOCNode Title="storeUser Method " Url="html/6392bd7b-31e5-f9d4-374a-5d3880b0eb50.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="53290825-9632-433d-bf40-dbc217e3d063" Title="IUserSvc Properties" Url="html/ccbc17e6-e778-9d88-aee4-1102791155bb.htm">
+      <HelpTOCNode Id="ed3e7635-598f-481d-b5db-401f8b4ee0d0" Title="IUserSvc Properties" Url="html/ccbc17e6-e778-9d88-aee4-1102791155bb.htm">
         <HelpTOCNode Title="NAME Property " Url="html/4d326118-d3f8-6c32-9e43-9ef9e254396c.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="e3785b91-516a-4869-b2cd-225b11a7b7d8" Title="BurritoPOSServer.service.Hibernate Namespace" Url="html/672d0a9e-955e-dcf4-72e8-824652027ddc.htm">
-    <HelpTOCNode Id="760c6f3e-e4b2-4d38-a0a0-b89731342155" Title="BaseSvcHibernateImpl Class" Url="html/15ba5328-9fe6-5029-7651-8a81ea38ce68.htm">
+  <HelpTOCNode Id="f5af3e43-fccb-4db1-9b8b-46dc519dcb3a" Title="BurritoPOSServer.service.Hibernate Namespace" Url="html/672d0a9e-955e-dcf4-72e8-824652027ddc.htm">
+    <HelpTOCNode Id="d2a0aab0-2d0d-4bad-bd9d-99ee3ce8466b" Title="BaseSvcHibernateImpl Class" Url="html/15ba5328-9fe6-5029-7651-8a81ea38ce68.htm">
       <HelpTOCNode Title="BaseSvcHibernateImpl Members" Url="html/1bb792ca-0a14-0a9d-13de-a7cc74b0ccc6.htm" />
       <HelpTOCNode Title="BaseSvcHibernateImpl Constructor " Url="html/3c5a9723-47b3-a2f2-b678-8a91d3a9a74b.htm" />
-      <HelpTOCNode Id="acd8e413-0816-4621-b6a5-df94897c83dd" Title="BaseSvcHibernateImpl Methods" Url="html/7c5f3e27-c42a-06a7-2e87-af5e1e525510.htm">
+      <HelpTOCNode Id="49023abf-6db3-447c-a252-b00f7933d844" Title="BaseSvcHibernateImpl Methods" Url="html/7c5f3e27-c42a-06a7-2e87-af5e1e525510.htm">
         <HelpTOCNode Title="getSession Method " Url="html/9d6221df-1fe0-db93-e79e-370f51355ca5.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a6941cec-70e5-4b76-82ac-4bd3da36c330" Title="UserHibernateImpl Class" Url="html/5d738358-7570-4c9f-b41b-8de85e916f59.htm">
+    <HelpTOCNode Id="df934665-af53-4d1a-9aa2-b7051963682f" Title="UserHibernateImpl Class" Url="html/5d738358-7570-4c9f-b41b-8de85e916f59.htm">
       <HelpTOCNode Title="UserHibernateImpl Members" Url="html/7d347a09-7354-4a54-b287-9efbecbecac5.htm" />
       <HelpTOCNode Title="UserHibernateImpl Constructor " Url="html/674bc22e-4df2-0ea8-d9d5-1cd633a8f52b.htm" />
-      <HelpTOCNode Id="2228106a-680f-46f5-8ea7-325be1401caf" Title="UserHibernateImpl Methods" Url="html/a3e03e2b-8a99-678c-2dd9-8c18f6454aa9.htm">
+      <HelpTOCNode Id="d8e99ec1-7c69-4721-86cf-a2f593feca26" Title="UserHibernateImpl Methods" Url="html/a3e03e2b-8a99-678c-2dd9-8c18f6454aa9.htm">
         <HelpTOCNode Title="deleteUser Method " Url="html/6b03c6e4-b479-4130-131a-133dbad15641.htm" />
+        <HelpTOCNode Title="getAllUsers Method " Url="html/10469fe6-b131-cacc-2d96-eee6643f8b5d.htm" />
         <HelpTOCNode Title="getUser Method " Url="html/74d0b4f0-2532-e476-7655-a1c072332021.htm" />
         <HelpTOCNode Title="storeUser Method " Url="html/e17d831f-2d42-b534-2732-86ef9a3d79eb.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="b39a0cab-d196-4baa-8922-cd9ce513ff95" Title="BurritoPOSServer.service.Mongo Namespace" Url="html/8055b3c5-f6be-9f3a-4ac0-303e0c3e311f.htm">
-    <HelpTOCNode Id="6e23855f-17ca-4d0d-a544-3fbd03685895" Title="UserSvcMongoImpl Class" Url="html/ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm">
+  <HelpTOCNode Id="9e8e352c-e9b1-48bf-af65-9e3bf7dea713" Title="BurritoPOSServer.service.Mongo Namespace" Url="html/8055b3c5-f6be-9f3a-4ac0-303e0c3e311f.htm">
+    <HelpTOCNode Id="a9862ae4-7a2d-4f03-a700-febd262621d1" Title="UserSvcMongoImpl Class" Url="html/ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm">
       <HelpTOCNode Title="UserSvcMongoImpl Members" Url="html/41a4e8e1-ec94-60d0-84d8-0484538830c8.htm" />
       <HelpTOCNode Title="UserSvcMongoImpl Constructor " Url="html/d7fb3825-882b-62bc-6cc9-1137cca2d333.htm" />
-      <HelpTOCNode Id="84834324-cc14-47ec-8bb1-c8757d93f5c2" Title="UserSvcMongoImpl Methods" Url="html/04674a4d-b847-8102-dffd-785cfe146227.htm">
+      <HelpTOCNode Id="bfe4ad9d-c3b6-442e-a2c6-4e40c7dbdc98" Title="UserSvcMongoImpl Methods" Url="html/04674a4d-b847-8102-dffd-785cfe146227.htm">
         <HelpTOCNode Title="deleteUser Method " Url="html/408a2d9c-44c7-1322-5701-e1937f8cd42b.htm" />
+        <HelpTOCNode Title="getAllUsers Method " Url="html/d7bafaf2-20bc-67f3-1804-5e310eedd306.htm" />
         <HelpTOCNode Title="getUser Method " Url="html/987bf77c-6059-48a2-d8ef-667b4db5a7d9.htm" />
         <HelpTOCNode Title="storeUser Method " Url="html/c6815ef3-8ffb-a270-2b67-af1f0e6b47f3.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="a0aa7ca5-17b3-4eed-a9da-d08c38ddee49" Title="BurritoPOSServer.service.test Namespace" Url="html/3fc66f69-e95e-0f21-1534-241ba6ce280d.htm">
-    <HelpTOCNode Id="cbe082f6-ec11-40d4-974b-800b18785428" Title="AllTests Class" Url="html/4f838cd6-7874-71f0-a117-efd3d5a52adb.htm">
+  <HelpTOCNode Id="81b2baad-62f3-4905-92e5-81a4da44913a" Title="BurritoPOSServer.service.test Namespace" Url="html/3fc66f69-e95e-0f21-1534-241ba6ce280d.htm">
+    <HelpTOCNode Id="d12ad37a-21c4-4f53-b046-f6ee8e60bb47" Title="AllTests Class" Url="html/4f838cd6-7874-71f0-a117-efd3d5a52adb.htm">
       <HelpTOCNode Title="AllTests Members" Url="html/249c978b-c3d4-1069-88fb-0121f07803b4.htm" />
       <HelpTOCNode Title="AllTests Constructor " Url="html/09a3d80a-a67c-aa1d-7984-bfab5239470c.htm" />
       <HelpTOCNode Title="AllTests Methods" Url="html/e8ee2b52-6e5e-721e-e166-790914329208.htm" />
-      <HelpTOCNode Id="aa1c9177-fc55-4514-b09d-787cc7d052b1" Title="AllTests Properties" Url="html/aeda0630-8a2e-15e7-da6f-1427f19cb0a4.htm">
+      <HelpTOCNode Id="d144f5f5-4019-4ed3-940c-246de1e11fe5" Title="AllTests Properties" Url="html/aeda0630-8a2e-15e7-da6f-1427f19cb0a4.htm">
         <HelpTOCNode Title="Suite Property " Url="html/b182e6cd-e249-1e17-b178-79e11c2b5d65.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7775b643-6f1a-47f0-9dfb-b810cb8e0c5e" Title="UserSvcImplTestCase Class" Url="html/823653c6-b346-7c18-e194-9cc37675361f.htm">
+    <HelpTOCNode Id="099fdab3-12e3-4411-90b2-084c006ea114" Title="UserSvcImplTestCase Class" Url="html/823653c6-b346-7c18-e194-9cc37675361f.htm">
       <HelpTOCNode Title="UserSvcImplTestCase Members" Url="html/1cf643f4-1c49-fa2d-83e5-9d85631a9e4e.htm" />
       <HelpTOCNode Title="UserSvcImplTestCase Constructor " Url="html/9f747233-505b-46ad-290f-034de4acdc2b.htm" />
-      <HelpTOCNode Id="8be8654e-7f6e-4d8c-b903-7917c908a320" Title="UserSvcImplTestCase Methods" Url="html/cd3bbc58-6e83-9009-bb8a-dbcb6d32727d.htm">
+      <HelpTOCNode Id="4ec484e7-7a6e-4c0a-911e-a037e2b47f5d" Title="UserSvcImplTestCase Methods" Url="html/cd3bbc58-6e83-9009-bb8a-dbcb6d32727d.htm">
         <HelpTOCNode Title="SetUp Method " Url="html/2f870a7c-b542-c91d-3b88-2199fec57e10.htm" />
         <HelpTOCNode Title="tearDown Method " Url="html/7359ba12-d6a0-d2ed-cec0-a76193e6c4de.htm" />
         <HelpTOCNode Title="testStoreUser Method " Url="html/0ff97647-b585-045d-83ea-ed36bdcc5a85.htm" />

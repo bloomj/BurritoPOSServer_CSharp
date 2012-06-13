@@ -64,14 +64,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOSServer.exe" size="20992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BurritoPOSServer.exe" size="54784">
       <assemblyIdentity name="BurritoPOSServer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8ydDFyn6G8kN3Efve4dhgiZuLW0=</dsig:DigestValue>
+        <dsig:DigestValue>QOY/RwnfBIu+B85q/6GW/wOtYpw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -232,6 +232,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>LxIt3GO7NY+MNUXwzEi6dHn0xto=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="config\spring.cfg.xml" size="185" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DwSQJd4QZdGUVMkAJAGP8gK4uWE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="lib\Antlr3.Runtime.dll" size="117760">

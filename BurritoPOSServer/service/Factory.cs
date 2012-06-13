@@ -95,7 +95,7 @@ namespace BurritoPOSServer.service
             }
             catch (Exception e)
             {
-                dLog.Debug("Current diretory: " + Directory.GetCurrentDirectory());
+                dLog.Debug("Current directory: " + Directory.GetCurrentDirectory());
                 dLog.Error("Exception in getImplName: " + e.Message);
             }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ using BurritoPOSServer.domain;
 namespace BurritoPOSServer.service.Hibernate
 {
     /// <summary>
-    /// This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for Employee objects.
+    /// This service implementation uses NHibernate framework to do basic CRUD operations with MS SQL Server 2008 for User objects.
     /// </summary>
     class UserHibernateImpl : BaseSvcHibernateImpl, IUserSvc
     {
@@ -145,6 +146,53 @@ namespace BurritoPOSServer.service.Hibernate
                 //ensure that session is close regardless of the errors in try/catch
                 if (session != null && session.IsOpen)
                     session.Close();
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// This method returns all users.
+        /// </summary>
+        /// <returns>List of user objects</returns>
+        public List<User> getAllUsers()
+        {
+            dLog.Info("Entering method getAllUsers");
+            List<User> result = new List<User>();
+            ISession session = null;
+
+            try
+            {
+                using (session = getSession())
+                {
+                    session.Clear();
+
+                    using (ITransaction transaction = session.BeginTransaction())
+                    {
+                        IQuery query = session.CreateQuery(@"FROM User");
+
+                        foreach (User u in query.List<User>())
+                        {
+                            result.Add(u);
+                        }
+
+                        transaction.Commit();
+                        session.Flush();
+                        //session.evict(User.class);
+                    }
+                }
+            }
+            catch (Exception e2)
+            {
+                dLog.Error("Exception in getAllUsers: " + e2.Message);
+            }
+            finally
+            {
+                //ensure that session is close regardless of the errors in try/catch
+                if (session != null && session.IsOpen)
+                {
+                    session.Close();
+                }
             }
 
             return result;

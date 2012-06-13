@@ -132,18 +132,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="business\ConnectionManager.cs" />
+    <Compile Include="business\SocketManager.cs" />
+    <Compile Include="business\test\AllTests.cs" />
+    <Compile Include="business\test\ConnectionManagerTestCase.cs" />
     <Compile Include="domain\test\AllTests.cs" />
     <Compile Include="domain\test\UserTestCase.cs" />
     <Compile Include="domain\User.cs" />
     <Compile Include="exception\ServiceLoadException.cs" />
-    <Compile Include="presentation\Form1.cs">
+    <Compile Include="presentation\MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="presentation\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="presentation\MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation\StatusUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation\StatusUI.Designer.cs">
+      <DependentUpon>StatusUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="service\Crypto\BCrypt.cs" />
     <Compile Include="service\Factory.cs" />
     <Compile Include="service\Hibernate\BaseSvcHibernateImpl.cs" />
     <Compile Include="service\Hibernate\UserHibernateImpl.cs" />
@@ -151,7 +162,14 @@
     <Compile Include="service\IUserSvc.cs" />
     <Compile Include="service\Mongo\UserSvcMongoImpl.cs" />
     <Compile Include="service\test\AllTests.cs" />
+    <Compile Include="service\test\BCryptTest.cs" />
     <Compile Include="service\test\UserSvcImplTestCase.cs" />
+    <EmbeddedResource Include="presentation\MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation\StatusUI.resx">
+      <DependentUpon>StatusUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -176,9 +194,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="business\test\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
       <Visible>False</Visible>
@@ -207,6 +223,7 @@
   <ItemGroup>
     <Content Include="config\properties.txt" />
     <Content Include="config\properties.xml" />
+    <Content Include="config\spring.cfg.xml" />
     <Content Include="lib\Antlr3.Runtime.dll" />
     <Content Include="lib\Castle.Core.dll" />
     <Content Include="lib\Castle.Core.xml" />

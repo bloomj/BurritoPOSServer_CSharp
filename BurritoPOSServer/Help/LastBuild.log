@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\BurritoPOSServer.shfbproj" started="6/6/2012 2:02:38 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.3.0" projectFile="C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\BurritoPOSServer.shfbproj" started="6/13/2012 1:04:36 PM">
 <buildStep step="Initializing">
 </buildStep>
 <buildStep step="FindingTools">
@@ -31,11 +31,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.2726
+    Last step completed in 00:00:00.1715
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0045
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -43,27 +43,27 @@ Generating reflection information...
   MrefBuilder (v2.6.10621.1)
   Copyright c Microsoft 2006
   Info: Loaded 1 assemblies for reflection and 13 dependency assemblies.
-  Info: Wrote information on 8 namespaces, 14 types, and 71 members
+  Info: Wrote information on 11 namespaces, 20 types, and 154 members
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
   reflection.all -&gt; reflection.org
-    Last step completed in 00:00:15.3031
+    Last step completed in 00:00:27.4145
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0335
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
-    14 attribute nodes removed
+    21 attribute nodes removed
     2 explicit interface implementations removed
-    90 local and base class EII elements removed
-    533 inherited member elements removed
-    24 private members noted for removal
+    178 local and base class EII elements removed
+    1018 inherited member elements removed
+    78 private members noted for removal
     0 private types noted for removal
     Removing previously noted unwanted APIs and elements
-    Last step completed in 00:00:00.1940
+    Last step completed in 00:00:00.3491
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -71,19 +71,19 @@ Transforming reflection output...
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  reflection.org -&gt; C:\Users\james.bloom\AppData\Local\Temp\tmp9F41.tmp
+  reflection.org -&gt; C:\Users\james.bloom\AppData\Local\Temp\tmpF73C.tmp
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
-  C:\Users\james.bloom\AppData\Local\Temp\tmp9F41.tmp -&gt; reflection.xml
+  C:\Users\james.bloom\AppData\Local\Temp\tmpF73C.tmp -&gt; reflection.xml
   XslTransform (v2.6.10621.1)
   Copyright c Microsoft 2005-2006
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
   reflection.xml -&gt; manifest.xml
-    Last step completed in 00:00:05.9192
+    Last step completed in 00:00:05.2546
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
     No changes required
-    Last step completed in 00:00:00.1370
+    Last step completed in 00:00:00.1655
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -194,12 +194,12 @@ C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\script_manifold.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\scripts\SplitScreen.js -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\scripts\SplitScreen.js
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\styles\Presentation.css
 C:\Program Files (x86)\Sandcastle\Presentation\vs2005\styles\Whidbey\presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\styles\Whidbey\presentation.css
-    Last step completed in 00:00:01.0167
+    Last step completed in 00:00:02.1419
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -213,17 +213,17 @@ Generating intermediate table of contents file...
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
   reflection.xml -&gt; toc.xml
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.7652
+    Last step completed in 00:00:00.5566
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2455
+    Last step completed in 00:00:00.2866
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.2315
+    Last step completed in 00:00:00.1885
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -235,7 +235,7 @@ Building reference help topics...
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39;.
   Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 202863 elements in 409 files.
+  Info: CopyFromIndexComponent: Indexed 202938 elements in 409 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: CopyFromIndexComponent: Instantiating component.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
@@ -1223,7 +1223,7 @@ Building reference help topics...
   Warn: CopyFromIndexComponent: Entries for the key &#39;P:System.Web.Routing.VirtualPathData.Route&#39; occur in both &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Routing.xml&#39; and &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.xml&#39;. The last entry will be used.
   Warn: CopyFromIndexComponent: Entries for the key &#39;P:System.Web.Routing.VirtualPathData.VirtualPath&#39; occur in both &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Routing.xml&#39; and &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.xml&#39;. The last entry will be used.
   Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\BurritoPOSServer.xml&#39;.
-  Info: CopyFromIndexComponent: Indexed 144142 elements in 127 files.
+  Info: CopyFromIndexComponent: Indexed 144193 elements in 127 files.
   Info: CopyFromIndexComponent: Loaded 0 copy components.
   Info: ForEachComponent: Instantiating component.
   Info: ForEachComponent: Loading subcomponents.
@@ -1304,40 +1304,93 @@ Building reference help topics...
   Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
   Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
-  Info: ResolveReferenceLinksComponent2: Loaded 202863 reference targets.
+  Info: ResolveReferenceLinksComponent2: Loaded 202938 reference targets.
   Info: SaveComponent: Instantiating component.
   Info: BuildAssembler: Building topic N:BurritoPOSServer
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer
-  Info: BuildAssembler: Building topic T:BurritoPOSServer.Form1
-  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.Form1
-  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.Form1
-  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.Form1.#ctor
-  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.Form1
-  Info: BuildAssembler: Building topic Properties.T:BurritoPOSServer.Form1
-  Info: BuildAssembler: Building topic Events.T:BurritoPOSServer.Form1
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Dispose
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Select
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Show
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.ShowDialog
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.ValidateChildren
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Scale
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Validate
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.AccessibilityNotifyClients
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.BeginInvoke
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.GetChildAtPoint
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Invalidate
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.Invoke
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.PerformLayout
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.ResumeLayout
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.SetBounds
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.RtlTranslateAlignment
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.UpdateBounds
-  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.Form1.MemberwiseClone
-  Info: BuildAssembler: Building topic M:BurritoPOSServer.Form1.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.Form1.#ctor
-  Info: BuildAssembler: Building topic M:BurritoPOSServer.Form1.Dispose(System.Boolean)
   Info: BuildAssembler: Building topic T:BurritoPOSServer.Program
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.Program
+  Info: BuildAssembler: Building topic N:BurritoPOSServer.business
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer.business
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.business.ConnectionManager
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.business.ConnectionManager
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.business.ConnectionManager
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.ConnectionManager.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.business.ConnectionManager
+  Info: BuildAssembler: Building topic Events.T:BurritoPOSServer.business.ConnectionManager
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.business.ConnectionManager.updateStatus
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.ConnectionManager.#ctor
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.getNumberOfConnections
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.getNumberOfConnections
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.getNumberOfConnections
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.isConnected
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.isConnected
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.isConnected
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.setExit(System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.setExit(System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.setExit(System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;exit&quot;/&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.setExit(System.Boolean)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.startServer
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.startServer
+  Info: BuildAssembler: Building topic E:BurritoPOSServer.business.ConnectionManager.StatusUpdate
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for E:BurritoPOSServer.business.ConnectionManager.StatusUpdate
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.updateStatus(BurritoPOSServer.presentation.MessageArgs)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.updateStatus(BurritoPOSServer.presentation.MessageArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.updateStatus(BurritoPOSServer.presentation.MessageArgs)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.ConnectionManager.updateStatus(System.String)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.updateStatus(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;msg&quot;/&gt; documentation for M:BurritoPOSServer.business.ConnectionManager.updateStatus(System.String)
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.business.SocketManager
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.business.SocketManager
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.business.SocketManager
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.SocketManager.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.SocketManager.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.business.SocketManager
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.business.SocketManager.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.SocketManager.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.SocketManager.#ctor
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket)
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;socket&quot;/&gt; documentation for M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket,BurritoPOSServer.business.ConnectionManager)
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket,BurritoPOSServer.business.ConnectionManager)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;socket&quot;/&gt; documentation for M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket,BurritoPOSServer.business.ConnectionManager)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;_par&quot;/&gt; documentation for M:BurritoPOSServer.business.SocketManager.#ctor(System.Net.Sockets.Socket,BurritoPOSServer.business.ConnectionManager)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.SocketManager.isConnected
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.SocketManager.isConnected
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.business.SocketManager.isConnected
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.SocketManager.run
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.SocketManager.run
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.SocketManager.setExit(System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.SocketManager.setExit(System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.business.SocketManager.setExit(System.Boolean)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;exit&quot;/&gt; documentation for M:BurritoPOSServer.business.SocketManager.setExit(System.Boolean)
+  Info: BuildAssembler: Building topic N:BurritoPOSServer.business.test
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer.business.test
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.business.test.AllTests
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.business.test.AllTests
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.business.test.AllTests
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.test.AllTests.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.business.test.AllTests
+  Info: BuildAssembler: Building topic Properties.T:BurritoPOSServer.business.test.AllTests
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.AllTests.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.test.AllTests.#ctor
+  Info: BuildAssembler: Building topic P:BurritoPOSServer.business.test.AllTests.Suite
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:BurritoPOSServer.business.test.AllTests.Suite
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.business.test.ConnectionManagerTestCase
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.business.test.ConnectionManagerTestCase
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.test.ConnectionManagerTestCase.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.business.test.ConnectionManagerTestCase
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.ConnectionManagerTestCase.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.business.test.ConnectionManagerTestCase.#ctor
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.ConnectionManagerTestCase.SetUp
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.test.ConnectionManagerTestCase.SetUp
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.ConnectionManagerTestCase.tearDown
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.business.test.ConnectionManagerTestCase.tearDown
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.ConnectionManagerTestCase.testConnectionManager
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.ConnectionManagerTestCase.testImproperShutdown
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.business.test.ConnectionManagerTestCase.testSocketManager
   Info: BuildAssembler: Building topic N:BurritoPOSServer.domain
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer.domain
   Info: BuildAssembler: Building topic T:BurritoPOSServer.domain.User
@@ -1412,6 +1465,73 @@ Building reference help topics...
   Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.exception.ServiceLoadException.#ctor(System.String,System.Exception)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;errorMessage&quot;/&gt; documentation for M:BurritoPOSServer.exception.ServiceLoadException.#ctor(System.String,System.Exception)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;innerEx&quot;/&gt; documentation for M:BurritoPOSServer.exception.ServiceLoadException.#ctor(System.String,System.Exception)
+  Info: BuildAssembler: Building topic N:BurritoPOSServer.presentation
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer.presentation
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.presentation.MainUI
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.presentation.MainUI
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.presentation.MainUI
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.presentation.MainUI.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.presentation.MainUI
+  Info: BuildAssembler: Building topic Properties.T:BurritoPOSServer.presentation.MainUI
+  Info: BuildAssembler: Building topic Events.T:BurritoPOSServer.presentation.MainUI
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Dispose
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Select
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Show
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.ShowDialog
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.ValidateChildren
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Scale
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Validate
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.AccessibilityNotifyClients
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.BeginInvoke
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.GetChildAtPoint
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Invalidate
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.Invoke
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.PerformLayout
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.ResumeLayout
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.SetBounds
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.RtlTranslateAlignment
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.UpdateBounds
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.MainUI.MemberwiseClone
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.presentation.MainUI.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.presentation.MainUI.#ctor
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.presentation.MainUI.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.presentation.MessageArgs
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.presentation.MessageArgs
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.presentation.MessageArgs
+  Info: BuildAssembler: Building topic Properties.T:BurritoPOSServer.presentation.MessageArgs
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.presentation.MessageArgs.#ctor(System.String)
+  Info: BuildAssembler: Building topic P:BurritoPOSServer.presentation.MessageArgs.msg
+  Info: BuildAssembler: Building topic T:BurritoPOSServer.presentation.StatusUI
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:BurritoPOSServer.presentation.StatusUI
+  Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.presentation.StatusUI
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.presentation.StatusUI.#ctor
+  Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.presentation.StatusUI
+  Info: BuildAssembler: Building topic Properties.T:BurritoPOSServer.presentation.StatusUI
+  Info: BuildAssembler: Building topic Events.T:BurritoPOSServer.presentation.StatusUI
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Dispose
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Select
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Show
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.ShowDialog
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.ValidateChildren
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Scale
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Validate
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.AccessibilityNotifyClients
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.BeginInvoke
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.GetChildAtPoint
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Invalidate
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.Invoke
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.PerformLayout
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.ResumeLayout
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.SetBounds
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.RtlTranslateAlignment
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.UpdateBounds
+  Info: BuildAssembler: Building topic Overload:BurritoPOSServer.presentation.StatusUI.MemberwiseClone
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.presentation.StatusUI.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.presentation.StatusUI.#ctor
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.presentation.StatusUI.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.presentation.StatusUI.updateStatus(System.String)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.presentation.StatusUI.updateStatus(System.String)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;msg&quot;/&gt; documentation for M:BurritoPOSServer.presentation.StatusUI.updateStatus(System.String)
   Info: BuildAssembler: Building topic N:BurritoPOSServer.service
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer.service
   Info: BuildAssembler: Building topic T:BurritoPOSServer.service.Factory
@@ -1435,6 +1555,9 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.service.IUserSvc.deleteUser(System.Int32)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.service.IUserSvc.deleteUser(System.Int32)
   Warn: ShowMissingComponent: Missing &lt;param name=&quot;id&quot;/&gt; documentation for M:BurritoPOSServer.service.IUserSvc.deleteUser(System.Int32)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.service.IUserSvc.getAllUsers
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.service.IUserSvc.getAllUsers
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.service.IUserSvc.getAllUsers
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.IUserSvc.getUser(System.Int32)
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.service.IUserSvc.getUser(System.Int32)
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.service.IUserSvc.getUser(System.Int32)
@@ -1449,10 +1572,8 @@ Building reference help topics...
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:BurritoPOSServer.service.Hibernate
   Info: BuildAssembler: Building topic T:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl
   Info: BuildAssembler: Building topic AllMembers.T:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl
-  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl.#ctor
   Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl.#ctor
-  Info: ShowMissingComponent: Auto-documenting constructor M:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl.#ctor
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl.getSession
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl.getSession
   Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:BurritoPOSServer.service.Hibernate.BaseSvcHibernateImpl.getSession
@@ -1464,6 +1585,7 @@ Building reference help topics...
   Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.service.Hibernate.UserHibernateImpl
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.#ctor
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.deleteUser(System.Int32)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.getAllUsers
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.getUser(System.Int32)
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Hibernate.UserHibernateImpl.storeUser(BurritoPOSServer.domain.User)
   Info: BuildAssembler: Building topic N:BurritoPOSServer.service.Mongo
@@ -1473,6 +1595,7 @@ Building reference help topics...
   Info: BuildAssembler: Building topic Methods.T:BurritoPOSServer.service.Mongo.UserSvcMongoImpl
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.#ctor
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.deleteUser(System.Int32)
+  Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.getAllUsers
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.getUser(System.Int32)
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.Mongo.UserSvcMongoImpl.storeUser(BurritoPOSServer.domain.User)
   Info: BuildAssembler: Building topic N:BurritoPOSServer.service.test
@@ -1498,14 +1621,14 @@ Building reference help topics...
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.test.UserSvcImplTestCase.tearDown
   Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:BurritoPOSServer.service.test.UserSvcImplTestCase.tearDown
   Info: BuildAssembler: Building topic M:BurritoPOSServer.service.test.UserSvcImplTestCase.testStoreUser
-  Info: Processed 119 topics
-    Last step completed in 00:03:09.2949
+  Info: Processed 194 topics
+    Last step completed in 00:03:13.5842
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:00.6361
+    Last step completed in 00:00:00.7842
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1517,20 +1640,20 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website
-Processed 119 HTML files
+Processed 194 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\WebTOC.xml
-    Last step completed in 00:00:01.6468
+    Last step completed in 00:00:01.4768
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0045
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.7003
+    Last step completed in 00:00:01.3378
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1561,124 +1684,199 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\Burr
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\fti\FTI_99.bin -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\fti\FTI_99.bin
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\fti\FTI_Files.bin -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\fti\FTI_Files.bin
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\00316266-6da5-fc46-6140-0683321224fe.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\00316266-6da5-fc46-6140-0683321224fe.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\01293183-dd5e-c993-1b0b-125f8637e4d8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\01293183-dd5e-c993-1b0b-125f8637e4d8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\01f0aa5e-bcc7-f605-0d8f-7a7be943cc92.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\01f0aa5e-bcc7-f605-0d8f-7a7be943cc92.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\02c84a37-a9cb-2eef-ef38-e32819a63933.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\02c84a37-a9cb-2eef-ef38-e32819a63933.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\04212685-8706-670a-b5de-4bd72462254f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\04212685-8706-670a-b5de-4bd72462254f.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\04674a4d-b847-8102-dffd-785cfe146227.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\04674a4d-b847-8102-dffd-785cfe146227.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\051197f9-5464-3e84-ca30-083565f3b450.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\051197f9-5464-3e84-ca30-083565f3b450.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\079f635c-5c36-0077-d303-8960c6fd5d45.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\079f635c-5c36-0077-d303-8960c6fd5d45.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0996c231-d8ea-b235-8096-ea62a1ebb355.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0996c231-d8ea-b235-8096-ea62a1ebb355.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\09a3d80a-a67c-aa1d-7984-bfab5239470c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\09a3d80a-a67c-aa1d-7984-bfab5239470c.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0a43b84a-be28-58a9-ee84-c549ef291a47.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0a43b84a-be28-58a9-ee84-c549ef291a47.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0bbaee34-3d8b-ce5e-412a-1cbcf8d809df.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0bbaee34-3d8b-ce5e-412a-1cbcf8d809df.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0cf6aa09-1614-4232-0a31-34fd588fd858.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0cf6aa09-1614-4232-0a31-34fd588fd858.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0d96a00d-6732-f25e-048f-4517a6c7b9dd.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0d96a00d-6732-f25e-048f-4517a6c7b9dd.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0e8fbb28-9549-5716-46ed-2ec60e4835c5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0e8fbb28-9549-5716-46ed-2ec60e4835c5.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0fae1e2e-e1fb-1f20-5046-7f5784e57692.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0fae1e2e-e1fb-1f20-5046-7f5784e57692.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0fc22762-ac29-184f-d83e-c1e0c55ae35a.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0ff97647-b585-045d-83ea-ed36bdcc5a85.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0ff97647-b585-045d-83ea-ed36bdcc5a85.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\0ffbfed5-00cc-c482-69ca-ff4289d80cce.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\0ffbfed5-00cc-c482-69ca-ff4289d80cce.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1007546e-bf22-f33c-3826-e246333ef0f2.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1007546e-bf22-f33c-3826-e246333ef0f2.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\12fc9e38-d84d-917f-5a8f-a4621732fb47.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\12fc9e38-d84d-917f-5a8f-a4621732fb47.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\10469fe6-b131-cacc-2d96-eee6643f8b5d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\10469fe6-b131-cacc-2d96-eee6643f8b5d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\127f6e3c-3e53-aebf-abf1-375919007155.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\127f6e3c-3e53-aebf-abf1-375919007155.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\133412d5-19ec-6ace-8577-cd7069a96a11.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\133412d5-19ec-6ace-8577-cd7069a96a11.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\141b003f-14e6-b0e2-44ed-26d398677759.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\141b003f-14e6-b0e2-44ed-26d398677759.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\15ba5328-9fe6-5029-7651-8a81ea38ce68.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\15ba5328-9fe6-5029-7651-8a81ea38ce68.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1801562c-5a7b-cfdc-e969-c9e7c138ae2a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1801562c-5a7b-cfdc-e969-c9e7c138ae2a.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\199fa84d-4ac0-675c-6dfb-35741f5e6275.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\199fa84d-4ac0-675c-6dfb-35741f5e6275.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1bb792ca-0a14-0a9d-13de-a7cc74b0ccc6.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1bb792ca-0a14-0a9d-13de-a7cc74b0ccc6.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1c6e13a2-cdbe-6d44-9049-494fbe29ac5a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1c6e13a2-cdbe-6d44-9049-494fbe29ac5a.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1c29f112-d3b3-2472-b918-1d1939579c86.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1c29f112-d3b3-2472-b918-1d1939579c86.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1cd028fe-03fb-4d20-a053-b81b72a6a172.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1cd028fe-03fb-4d20-a053-b81b72a6a172.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1cf643f4-1c49-fa2d-83e5-9d85631a9e4e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1cf643f4-1c49-fa2d-83e5-9d85631a9e4e.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1d36a94d-726e-dc6f-b9ea-75bf1b580471.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1d36a94d-726e-dc6f-b9ea-75bf1b580471.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1d0bca1c-5768-659e-e744-6d8b749a3a27.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1d0bca1c-5768-659e-e744-6d8b749a3a27.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\1d4b11ce-b188-38cb-92d8-c07877a87802.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\1d4b11ce-b188-38cb-92d8-c07877a87802.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\204a0ec3-b4ea-47c1-1c4e-123d5c38750a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\204a0ec3-b4ea-47c1-1c4e-123d5c38750a.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\23f40a6d-7f8c-b3fe-2e22-33cc8cdb5747.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\23f40a6d-7f8c-b3fe-2e22-33cc8cdb5747.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\243630c4-aa42-a935-cc35-cd355ac46a42.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\243630c4-aa42-a935-cc35-cd355ac46a42.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\249c978b-c3d4-1069-88fb-0121f07803b4.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\249c978b-c3d4-1069-88fb-0121f07803b4.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\2b29c4dd-5eb6-97a0-eff5-8e15ce8174f0.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\2b29c4dd-5eb6-97a0-eff5-8e15ce8174f0.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\2d5387e6-8c8a-bd8f-0971-486965b23fcc.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\2d5387e6-8c8a-bd8f-0971-486965b23fcc.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\2ecd6691-4c32-304a-5ad9-914f580cca17.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\2ecd6691-4c32-304a-5ad9-914f580cca17.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\2ed6a4d3-ae1a-8677-bc93-2201b1439614.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\2ed6a4d3-ae1a-8677-bc93-2201b1439614.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\2f870a7c-b542-c91d-3b88-2199fec57e10.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\2f870a7c-b542-c91d-3b88-2199fec57e10.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3065c8cc-90b5-c62b-7d51-18b78d297765.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3065c8cc-90b5-c62b-7d51-18b78d297765.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\306f994e-871d-d634-c0c6-dd7bbfbdaeb1.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\306f994e-871d-d634-c0c6-dd7bbfbdaeb1.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3125f6f2-3f82-c799-53b8-b06a91fae5d3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3125f6f2-3f82-c799-53b8-b06a91fae5d3.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\326b7b8a-490b-af1b-9192-6381ca2b1971.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\326b7b8a-490b-af1b-9192-6381ca2b1971.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\32c17fd2-de61-a5ff-9d1c-1fbf0dac2169.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\32c17fd2-de61-a5ff-9d1c-1fbf0dac2169.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\34831e88-d4ca-2eed-9118-474a3e7923db.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\34831e88-d4ca-2eed-9118-474a3e7923db.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\35f45085-bd4a-4ab7-1319-dc22eb077acc.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\35f45085-bd4a-4ab7-1319-dc22eb077acc.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\36e69f6f-ea61-520a-2599-c867b47efada.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\36e69f6f-ea61-520a-2599-c867b47efada.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3aa194b7-5609-cf8f-926a-213a09347b43.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3aa194b7-5609-cf8f-926a-213a09347b43.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3ac740d4-116b-3a68-c922-cf9a7bcb4e10.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3ac740d4-116b-3a68-c922-cf9a7bcb4e10.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3b8757ba-043c-4d4a-62ad-679648b5d7c3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3b8757ba-043c-4d4a-62ad-679648b5d7c3.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3c5a9723-47b3-a2f2-b678-8a91d3a9a74b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3c5a9723-47b3-a2f2-b678-8a91d3a9a74b.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3f6d8d7b-a205-e8e2-e67e-afbc8d1e7d0d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3f6d8d7b-a205-e8e2-e67e-afbc8d1e7d0d.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3fc66f69-e95e-0f21-1534-241ba6ce280d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3fc66f69-e95e-0f21-1534-241ba6ce280d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\3fdd6576-c7f2-9e7d-afc9-c7f0ace2b376.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\3fdd6576-c7f2-9e7d-afc9-c7f0ace2b376.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\401fb21d-7816-8deb-0e26-9f8cd445625f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\401fb21d-7816-8deb-0e26-9f8cd445625f.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\408a2d9c-44c7-1322-5701-e1937f8cd42b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\408a2d9c-44c7-1322-5701-e1937f8cd42b.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\41a4e8e1-ec94-60d0-84d8-0484538830c8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\41a4e8e1-ec94-60d0-84d8-0484538830c8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4497f09c-ebe5-c84e-2fc6-049601980798.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4497f09c-ebe5-c84e-2fc6-049601980798.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\45365bc5-fa8e-f491-45b2-c9d044141b24.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\45365bc5-fa8e-f491-45b2-c9d044141b24.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4c3a0609-274e-5e12-21e2-b92d0d1e1e6c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4c3a0609-274e-5e12-21e2-b92d0d1e1e6c.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\462fa66d-a243-e454-ef3f-20416b3b3a0b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\462fa66d-a243-e454-ef3f-20416b3b3a0b.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4c46b9b9-bbd1-6f27-f28d-f94916c4a094.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4c46b9b9-bbd1-6f27-f28d-f94916c4a094.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4d326118-d3f8-6c32-9e43-9ef9e254396c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4d326118-d3f8-6c32-9e43-9ef9e254396c.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4d4961cb-f203-c88d-afe0-fa31332ef7d5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4d4961cb-f203-c88d-afe0-fa31332ef7d5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4db877db-0e59-1f71-3134-48262e043324.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4db877db-0e59-1f71-3134-48262e043324.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\4f838cd6-7874-71f0-a117-efd3d5a52adb.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\4f838cd6-7874-71f0-a117-efd3d5a52adb.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\504d33a1-8e47-4889-3f6c-9615cd85ef84.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\504d33a1-8e47-4889-3f6c-9615cd85ef84.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5063ab2c-bff1-4d57-97a1-6ff221e568c9.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5063ab2c-bff1-4d57-97a1-6ff221e568c9.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\50ec456b-e2c3-e4c5-aa6d-24a968e7519d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\50ec456b-e2c3-e4c5-aa6d-24a968e7519d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\52e908c6-54ed-a8b0-ab67-5185747512e6.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\52e908c6-54ed-a8b0-ab67-5185747512e6.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\53dce249-8f04-bc9d-6c94-7725c4a4aeb9.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\53dce249-8f04-bc9d-6c94-7725c4a4aeb9.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\574c12fe-cc3c-19e0-e99c-adfa99dc4900.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\574c12fe-cc3c-19e0-e99c-adfa99dc4900.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\57aba401-7871-57aa-90c1-39a5d410da53.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\57aba401-7871-57aa-90c1-39a5d410da53.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\58ed8ab7-dccf-7077-b642-956a2d6abca6.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\58ed8ab7-dccf-7077-b642-956a2d6abca6.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5bb95aea-ed3a-39d2-786b-7e35428f6144.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5bb95aea-ed3a-39d2-786b-7e35428f6144.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5c92fd3f-7dd3-4c1a-d51b-d163337cbf56.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5c92fd3f-7dd3-4c1a-d51b-d163337cbf56.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5cc716d9-313e-febd-6a3a-33579c9c175e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5cc716d9-313e-febd-6a3a-33579c9c175e.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5d738358-7570-4c9f-b41b-8de85e916f59.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5d738358-7570-4c9f-b41b-8de85e916f59.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5ebb491a-b3fa-257e-ff05-e0e381e7a062.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5ebb491a-b3fa-257e-ff05-e0e381e7a062.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\5fe94853-df77-4771-b08a-c1c3be34911f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\5fe94853-df77-4771-b08a-c1c3be34911f.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\630e7cea-4e65-f2fa-78fd-5893676aab98.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\630e7cea-4e65-f2fa-78fd-5893676aab98.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\6392bd7b-31e5-f9d4-374a-5d3880b0eb50.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\6392bd7b-31e5-f9d4-374a-5d3880b0eb50.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\672d0a9e-955e-dcf4-72e8-824652027ddc.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\672d0a9e-955e-dcf4-72e8-824652027ddc.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\674bc22e-4df2-0ea8-d9d5-1cd633a8f52b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\674bc22e-4df2-0ea8-d9d5-1cd633a8f52b.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\6b03c6e4-b479-4130-131a-133dbad15641.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\6b03c6e4-b479-4130-131a-133dbad15641.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\6b692441-6763-b592-4860-3afc01163c9d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\6b692441-6763-b592-4860-3afc01163c9d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\6c13a754-f05b-fd2b-634c-32ba3546b39d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\6c13a754-f05b-fd2b-634c-32ba3546b39d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\6f387d5c-a244-1e25-9a6e-37e4cf7bfe61.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\6f387d5c-a244-1e25-9a6e-37e4cf7bfe61.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\702fa147-27d5-8ca9-a3f6-319ba53e61e1.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\702fa147-27d5-8ca9-a3f6-319ba53e61e1.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\70c51e22-4c53-42ef-7b7f-949d31371121.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\70c51e22-4c53-42ef-7b7f-949d31371121.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\70d04d43-9e0b-7166-a5be-0c6760cce25d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\70d04d43-9e0b-7166-a5be-0c6760cce25d.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\71134416-c9cc-e6f0-789e-b939c2339cda.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\71134416-c9cc-e6f0-789e-b939c2339cda.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\71ae98ea-c247-7969-c9b0-85dd12207d7a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\71ae98ea-c247-7969-c9b0-85dd12207d7a.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\72c09587-8a13-0b30-8556-f5e9f5fdac88.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\72c09587-8a13-0b30-8556-f5e9f5fdac88.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\733671de-1a92-1d76-6248-8762e688f91a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\733671de-1a92-1d76-6248-8762e688f91a.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7359ba12-d6a0-d2ed-cec0-a76193e6c4de.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7359ba12-d6a0-d2ed-cec0-a76193e6c4de.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\73beaf85-272b-da85-bd8c-8dbb8660a2e8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\73beaf85-272b-da85-bd8c-8dbb8660a2e8.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\74d0b4f0-2532-e476-7655-a1c072332021.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\74d0b4f0-2532-e476-7655-a1c072332021.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\75ea7183-e983-ad33-cbfe-71d1b61a6359.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\75ea7183-e983-ad33-cbfe-71d1b61a6359.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\76b614f9-4d6d-ee86-8c23-b8a6bca274fd.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\76b614f9-4d6d-ee86-8c23-b8a6bca274fd.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7721d946-26d8-7b99-5839-e071afb326ee.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7721d946-26d8-7b99-5839-e071afb326ee.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7832bab0-2322-f6d5-9c20-7d7980c67fd8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7832bab0-2322-f6d5-9c20-7d7980c67fd8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\773d8efb-2666-c0fe-a330-c5eefe5da705.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\773d8efb-2666-c0fe-a330-c5eefe5da705.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\78a11100-09c3-7cf0-317e-a1acb89cef95.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\78a11100-09c3-7cf0-317e-a1acb89cef95.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\792d2f4e-e07f-e9ec-0934-da2357a45084.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\792d2f4e-e07f-e9ec-0934-da2357a45084.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7af615a4-c054-0742-c1e1-f76d99d52167.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7af615a4-c054-0742-c1e1-f76d99d52167.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7b3d8dee-c7e4-f7b8-2d86-06468a0a6368.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7b3d8dee-c7e4-f7b8-2d86-06468a0a6368.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7b6d62ef-f956-19ac-c22d-51f9be3be0e8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7b6d62ef-f956-19ac-c22d-51f9be3be0e8.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7c5f3e27-c42a-06a7-2e87-af5e1e525510.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7c5f3e27-c42a-06a7-2e87-af5e1e525510.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7d347a09-7354-4a54-b287-9efbecbecac5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7d347a09-7354-4a54-b287-9efbecbecac5.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7dadfc96-0f78-abfa-6eec-71d1e769278a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7dadfc96-0f78-abfa-6eec-71d1e769278a.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7f6b2e89-ce2c-0c22-29a3-fc4692056665.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7f6b2e89-ce2c-0c22-29a3-fc4692056665.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\7fc05d9d-4a37-2186-f7d5-1d077bb1715c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\7fc05d9d-4a37-2186-f7d5-1d077bb1715c.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\8055b3c5-f6be-9f3a-4ac0-303e0c3e311f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\8055b3c5-f6be-9f3a-4ac0-303e0c3e311f.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\823653c6-b346-7c18-e194-9cc37675361f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\823653c6-b346-7c18-e194-9cc37675361f.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\922cec45-8bbf-e77c-7f5b-b14b66bf22ce.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\922cec45-8bbf-e77c-7f5b-b14b66bf22ce.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\86418b61-ecc8-767c-c82f-72572d7476c2.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\86418b61-ecc8-767c-c82f-72572d7476c2.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\89132f3b-801d-7a9c-7c8b-2e35777ab690.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\89132f3b-801d-7a9c-7c8b-2e35777ab690.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\8b0057ef-fc90-3e52-6484-2c57c083a400.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\8b0057ef-fc90-3e52-6484-2c57c083a400.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\90d3c679-c9c6-0380-5d8d-a1d41a11b148.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\90d3c679-c9c6-0380-5d8d-a1d41a11b148.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\9245db49-71a1-507a-01a5-ccc6b9d71903.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\9245db49-71a1-507a-01a5-ccc6b9d71903.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\932355b0-988f-37d2-c525-7f12615a5bcc.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\932355b0-988f-37d2-c525-7f12615a5bcc.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\933a17b6-2d81-bd75-c4e5-bcd8b7445e8b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\933a17b6-2d81-bd75-c4e5-bcd8b7445e8b.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\957933ee-a00a-76b7-4c76-c769ec032e4e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\957933ee-a00a-76b7-4c76-c769ec032e4e.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\98748099-eca4-f2a6-25dc-340795fc9e24.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\98748099-eca4-f2a6-25dc-340795fc9e24.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\95ec5b09-862a-f320-65a9-97e4a2a96339.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\95ec5b09-862a-f320-65a9-97e4a2a96339.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\96d3660c-b9fe-837f-4862-b0929c546029.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\96d3660c-b9fe-837f-4862-b0929c546029.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\981b50ce-dcb7-aa31-31c9-1c2e08a35e40.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\981b50ce-dcb7-aa31-31c9-1c2e08a35e40.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\98420650-73a4-cffa-4a04-02fac8fabcfe.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\98420650-73a4-cffa-4a04-02fac8fabcfe.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\987bf77c-6059-48a2-d8ef-667b4db5a7d9.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\987bf77c-6059-48a2-d8ef-667b4db5a7d9.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\98b77636-1e05-70bd-a3ef-d2614d6efbd8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\98b77636-1e05-70bd-a3ef-d2614d6efbd8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\99ad66a0-064d-39c2-5704-7829c2f8d3f7.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\99ad66a0-064d-39c2-5704-7829c2f8d3f7.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\9d6221df-1fe0-db93-e79e-370f51355ca5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\9d6221df-1fe0-db93-e79e-370f51355ca5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\9f1d5fdc-6753-f898-2014-1eb6a694aa02.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\9f1d5fdc-6753-f898-2014-1eb6a694aa02.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\9f747233-505b-46ad-290f-034de4acdc2b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\9f747233-505b-46ad-290f-034de4acdc2b.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\a2d301fd-b3a7-e731-543c-d252f139dd1c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\a2d301fd-b3a7-e731-543c-d252f139dd1c.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\a3e03e2b-8a99-678c-2dd9-8c18f6454aa9.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\a3e03e2b-8a99-678c-2dd9-8c18f6454aa9.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\a7718766-920a-0f8f-a086-a8c85fef7382.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\a7718766-920a-0f8f-a086-a8c85fef7382.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\a78d49ce-365a-8666-ba75-1e6f24829f90.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\a78d49ce-365a-8666-ba75-1e6f24829f90.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\ad9c16e0-204b-b905-3284-38041e582de9.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\ad9c16e0-204b-b905-3284-38041e582de9.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\abe08296-6f7a-e363-d078-e4e7a9c0ccc2.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\abe08296-6f7a-e363-d078-e4e7a9c0ccc2.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\ad0f2cd3-6f41-6b42-8722-ecdd57d1220a.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\ad0f2cd3-6f41-6b42-8722-ecdd57d1220a.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\aeda0630-8a2e-15e7-da6f-1427f19cb0a4.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\aeda0630-8a2e-15e7-da6f-1427f19cb0a4.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\af1f2add-7c76-e883-ccd7-fbae494660a6.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\af1f2add-7c76-e883-ccd7-fbae494660a6.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b00a12bb-c348-8c7c-7af6-16962336fba8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b00a12bb-c348-8c7c-7af6-16962336fba8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b0bb6408-50ed-92ee-782b-659b4c769e7e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b0bb6408-50ed-92ee-782b-659b4c769e7e.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b182e6cd-e249-1e17-b178-79e11c2b5d65.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b182e6cd-e249-1e17-b178-79e11c2b5d65.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b240c9f4-f1ba-1f34-1414-5d2f427bc4c8.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b2609aec-c7cf-7c9a-c25b-256817a86c49.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b2609aec-c7cf-7c9a-c25b-256817a86c49.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b36fa38f-176c-113a-0b11-e8cfc297e477.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b36fa38f-176c-113a-0b11-e8cfc297e477.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b483d075-90cd-2807-3270-24e6f82f5fdd.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b483d075-90cd-2807-3270-24e6f82f5fdd.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b6400f8c-eb20-77a0-c5bd-02fd70cd4fe3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b6400f8c-eb20-77a0-c5bd-02fd70cd4fe3.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b6ffa648-cbe6-f73b-6394-b8bd25380d54.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b6ffa648-cbe6-f73b-6394-b8bd25380d54.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b7cd3f8c-5002-5d45-ec60-762dd0839394.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b7cd3f8c-5002-5d45-ec60-762dd0839394.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b935d52f-0d3e-bd0e-f118-70cc270d91d5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b935d52f-0d3e-bd0e-f118-70cc270d91d5.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\b980622b-f75b-a9bf-ca59-13da6cae6ea7.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\b980622b-f75b-a9bf-ca59-13da6cae6ea7.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\bc79b88c-cab7-3685-e3e5-18fdd9a8ef2f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\bc79b88c-cab7-3685-e3e5-18fdd9a8ef2f.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\bcad1ea2-d111-65ca-55df-dbf561891e85.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\bcad1ea2-d111-65ca-55df-dbf561891e85.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\bedf782e-befa-4294-3c28-b687092353be.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\bedf782e-befa-4294-3c28-b687092353be.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c08d8ae2-330e-17c6-2b65-09ab1985431d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c08d8ae2-330e-17c6-2b65-09ab1985431d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c12b90b5-8a99-608f-b409-bc66a9b42950.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c12b90b5-8a99-608f-b409-bc66a9b42950.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c1d45935-73ba-a3dd-5fb2-ca6d7d920ede.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c1d45935-73ba-a3dd-5fb2-ca6d7d920ede.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c1d988b5-a0bb-d05f-287b-352539602208.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c1d988b5-a0bb-d05f-287b-352539602208.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c3a81839-ede4-9df6-badd-f8a66498637e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c3a81839-ede4-9df6-badd-f8a66498637e.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c41f0640-7da0-d4a4-abdc-8ea58486a618.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c41f0640-7da0-d4a4-abdc-8ea58486a618.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c4eff9e0-aebc-f0bc-8968-bb90857795d5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c4eff9e0-aebc-f0bc-8968-bb90857795d5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c6815ef3-8ffb-a270-2b67-af1f0e6b47f3.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c6815ef3-8ffb-a270-2b67-af1f0e6b47f3.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\cae287c4-a923-6d92-cf65-49313d64ef9e.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\cae287c4-a923-6d92-cf65-49313d64ef9e.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\c7db0b20-152c-06cf-462a-b6c54ca8e2af.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\c7db0b20-152c-06cf-462a-b6c54ca8e2af.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\ccbc17e6-e778-9d88-aee4-1102791155bb.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\ccbc17e6-e778-9d88-aee4-1102791155bb.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\cd3bbc58-6e83-9009-bb8a-dbcb6d32727d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\cd3bbc58-6e83-9009-bb8a-dbcb6d32727d.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d05c96f7-7983-c67e-41c8-245e7c40da49.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d05c96f7-7983-c67e-41c8-245e7c40da49.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d15442d0-f56d-14c4-218a-2551fa6e071b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d15442d0-f56d-14c4-218a-2551fa6e071b.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d2192cf8-261a-2fe6-f441-6ada52a16812.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d2192cf8-261a-2fe6-f441-6ada52a16812.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d2bf71bc-8b94-3a9d-e2d8-7225b6a82937.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d2ed0f60-9508-ac64-04ee-7ff95e23755f.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d2ed0f60-9508-ac64-04ee-7ff95e23755f.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d74fa1f0-ac07-49ce-8465-6c50cfa80597.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d74fa1f0-ac07-49ce-8465-6c50cfa80597.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d7bafaf2-20bc-67f3-1804-5e310eedd306.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d7bafaf2-20bc-67f3-1804-5e310eedd306.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d7fb3825-882b-62bc-6cc9-1137cca2d333.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d7fb3825-882b-62bc-6cc9-1137cca2d333.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\d82ea3de-a9b0-722b-d60b-fe23fd854910.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\d82ea3de-a9b0-722b-d60b-fe23fd854910.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\dc02f887-884e-b9f4-21d5-0bc1e7f0cc62.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\dc02f887-884e-b9f4-21d5-0bc1e7f0cc62.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\dc7a7c51-0491-dd2f-2b15-6f35e09b9ef0.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\dc7a7c51-0491-dd2f-2b15-6f35e09b9ef0.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\dd2e3b72-cb57-af87-8427-49936f4111ab.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\dd2e3b72-cb57-af87-8427-49936f4111ab.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\de175a43-00fc-d73a-de87-4095cd441c24.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\de175a43-00fc-d73a-de87-4095cd441c24.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e0082e4c-e4fc-2097-d172-12d5f94e3a58.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e0082e4c-e4fc-2097-d172-12d5f94e3a58.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e044bf4e-3b13-cc03-94b7-1765ff30acb1.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e044bf4e-3b13-cc03-94b7-1765ff30acb1.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e0b5eaf7-35a4-f03c-73ca-ebabcadd4739.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e0b5eaf7-35a4-f03c-73ca-ebabcadd4739.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e17d831f-2d42-b534-2732-86ef9a3d79eb.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e17d831f-2d42-b534-2732-86ef9a3d79eb.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e360d65a-9af3-6d1c-70f0-ca555e6cef5d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e360d65a-9af3-6d1c-70f0-ca555e6cef5d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e3728ca1-5a86-8a94-a7b6-a50f51df7f1c.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e3728ca1-5a86-8a94-a7b6-a50f51df7f1c.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e5ea0bfd-a7d1-1efb-7fd1-548fa31c8bde.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e5ea0bfd-a7d1-1efb-7fd1-548fa31c8bde.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e663cdfb-027d-5036-5396-fb022658e9f1.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e663cdfb-027d-5036-5396-fb022658e9f1.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e67f9d30-b421-b18c-cd66-8d15130b2d2d.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e67f9d30-b421-b18c-cd66-8d15130b2d2d.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e6d92d72-e377-0cea-5c82-2a9bdf468353.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e6d92d72-e377-0cea-5c82-2a9bdf468353.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\e8ee2b52-6e5e-721e-e166-790914329208.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\e8ee2b52-6e5e-721e-e166-790914329208.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\eaf4f2d3-ab15-8524-1d5f-781ff01afc91.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\eaf4f2d3-ab15-8524-1d5f-781ff01afc91.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\ecb44709-ce42-b5a9-00b5-6880e3311426.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\ecb44709-ce42-b5a9-00b5-6880e3311426.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\ee1d0d38-0cc5-12da-4dfc-a3f411e532d8.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\ee5b7d36-763d-5220-41fa-a9944587bf6b.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\ee5b7d36-763d-5220-41fa-a9944587bf6b.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\eece4fcb-1d8c-a0fe-594f-ad7dc37e7ca0.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\eece4fcb-1d8c-a0fe-594f-ad7dc37e7ca0.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f116b574-3a46-971f-73ee-f321d3a8e7f5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f116b574-3a46-971f-73ee-f321d3a8e7f5.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f3a9701a-6424-eb1e-e216-c80a62543670.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f3a9701a-6424-eb1e-e216-c80a62543670.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f443d777-a75e-247c-b467-77be3cdccd97.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f443d777-a75e-247c-b467-77be3cdccd97.htm
-C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f5f273fa-5fb1-aef7-efd3-a09ad4858137.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f5f273fa-5fb1-aef7-efd3-a09ad4858137.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f64149a7-9b2f-d816-6755-92afeff7f049.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f64149a7-9b2f-d816-6755-92afeff7f049.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f6aac652-3480-5aae-665d-8b76d7176585.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f6aac652-3480-5aae-665d-8b76d7176585.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f6c9f6b6-bc95-707a-f1b8-6dcee8408b68.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f6c9f6b6-bc95-707a-f1b8-6dcee8408b68.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\f6dd4bf6-ab82-ab8e-8e1a-cdc40699c5d7.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\f6dd4bf6-ab82-ab8e-8e1a-cdc40699c5d7.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\fa5aadde-7c65-4e3a-960c-980bfd707ac5.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\fa5aadde-7c65-4e3a-960c-980bfd707ac5.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\fb51dc3c-16f3-21df-f68a-0564196ad2f8.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\fb51dc3c-16f3-21df-f68a-0564196ad2f8.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\fc456dc5-8ee4-b9e6-6d17-3f0d8913b2a4.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\fc456dc5-8ee4-b9e6-6d17-3f0d8913b2a4.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\fd39c7fa-3e73-d3ec-821f-cf4ae3c693ec.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\fd39c7fa-3e73-d3ec-821f-cf4ae3c693ec.htm
+C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\html\fdb4291a-2378-a835-96c8-fea8f2dc1278.htm -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\html\fdb4291a-2378-a835-96c8-fea8f2dc1278.htm
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\icons\adm.gif -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\icons\adm.gif
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\icons\adm_arch.gif -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\icons\adm_arch.gif
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\icons\adm_dev.gif -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\icons\adm_dev.gif
@@ -1786,15 +1984,15 @@ C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\Burr
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\scripts\SplitScreen.js -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\scripts\SplitScreen.js
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\styles\Presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\styles\Presentation.css
 C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\Working\Output\Website\styles\Whidbey\presentation.css -&gt; C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\Help\styles\Whidbey\presentation.css
-    Last step completed in 00:00:02.9996
+    Last step completed in 00:00:03.0921
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2626
+    Last step completed in 00:00:00.3116
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 06/06/2012 02:06 PM.  Total time: 00:03:41.0162
+Build completed successfully at 06/13/2012 01:08 PM.  Total time: 00:03:57.5115
 
 </buildStep>
 </shfbBuild>

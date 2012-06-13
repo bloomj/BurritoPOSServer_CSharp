@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,9 +55,9 @@ namespace BurritoPOSServer.service.Mongo
             try
             {
                 MongoServer server = MongoServer.Create();
-                MongoDatabase db = server.GetDatabase("neatoBurrito");
                 //MongoCredentials credentials = new MongoCredentials("username", "password");
-                //MongoDatabase salaries = server.GetDatabase("salaries", credentials);
+                MongoDatabase db = server.GetDatabase("neatoBurrito");
+                //MongoDatabase db = server.GetDatabase("neatoBurrito", credentials);
 
                 using (server.RequestStart(db))
                 {
@@ -105,9 +106,9 @@ namespace BurritoPOSServer.service.Mongo
             try
             {
                 MongoServer server = MongoServer.Create();
-                MongoDatabase db = server.GetDatabase("neatoBurrito");
                 //MongoCredentials credentials = new MongoCredentials("username", "password");
-                //MongoDatabase salaries = server.GetDatabase("salaries", credentials);
+                MongoDatabase db = server.GetDatabase("neatoBurrito");
+                //MongoDatabase db = server.GetDatabase("neatoBurrito", credentials);
 
                 using (server.RequestStart(db))
                 {
@@ -175,9 +176,9 @@ namespace BurritoPOSServer.service.Mongo
             try
             {
                 MongoServer server = MongoServer.Create();
-                MongoDatabase db = server.GetDatabase("neatoBurrito");
                 //MongoCredentials credentials = new MongoCredentials("username", "password");
-                //MongoDatabase salaries = server.GetDatabase("salaries", credentials);
+                MongoDatabase db = server.GetDatabase("neatoBurrito");
+                //MongoDatabase db = server.GetDatabase("neatoBurrito", credentials);
 
                 using (server.RequestStart(db))
                 {
@@ -200,6 +201,47 @@ namespace BurritoPOSServer.service.Mongo
             catch (Exception e2)
             {
                 dLog.Error("Exception in deleteUser: " + e2.Message);
+            }
+            finally
+            {
+                //using statement above already calls RequestDone()
+            }
+
+            return result;
+        }
+
+        //TODO: come back and reduce number of reads on DB
+        /// <summary>
+        /// This method returns all users.
+        /// </summary>
+        /// <returns>List of users objects</returns>
+        public List<User> getAllUsers()
+        {
+            dLog.Info("Entering method getAllUsers");
+            List<User> result = new List<User>();
+
+            try
+            {
+                MongoServer server = MongoServer.Create();
+                //MongoCredentials credentials = new MongoCredentials("username", "password");
+                MongoDatabase db = server.GetDatabase("neatoBurrito");
+                //MongoDatabase db = server.GetDatabase("neatoBurrito", credentials);
+
+                using (server.RequestStart(db))
+                {
+                    MongoCollection<BsonDocument> coll = db.GetCollection("user");
+
+                    MongoCursor cur = coll.FindAll();
+
+                    foreach (var doc in cur)
+                    {
+                        result.Add(getUser(((BsonDocument)doc)["id"].AsInt32));
+                    }
+                }
+            }
+            catch (Exception e2)
+            {
+                dLog.Error("Exception in getAllUsers: " + e2.Message);
             }
             finally
             {

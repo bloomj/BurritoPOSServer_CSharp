@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,5 +37,11 @@ namespace BurritoPOSServer.service
         /// <param name="id"></param>
         /// <returns></returns>
         Boolean deleteUser(Int32 id);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        List<User> getAllUsers();
     }
 }
