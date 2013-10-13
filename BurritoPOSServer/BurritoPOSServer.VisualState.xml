@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1000]C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\BurritoPOSServer.nunit</TopNode>
+  <SelectedNode>[0-1014]BurritoPOSServer.business.test.ConnectionManagerTestCase</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\BurritoPOSServer.nunit" Expanded="true" />
+    <Node UniqueName="[0-1018]C:\Users\james.bloom\Documents\Visual Studio 2010\Projects\BurritoPOSServer\BurritoPOSServer\bin\Release\BurritoPOSServer.exe" Expanded="true" />
+    <Node UniqueName="[0-1008]BCryptTest" Expanded="true" />
+    <Node UniqueName="[0-1019]BurritoPOSServer" Expanded="true" />
+    <Node UniqueName="[0-1024]BurritoPOSServer.business" Expanded="true" />
+    <Node UniqueName="[0-1025]BurritoPOSServer.business.test" Expanded="true" />
+    <Node UniqueName="[0-1014]BurritoPOSServer.business.test.ConnectionManagerTestCase" Expanded="true" />
+    <Node UniqueName="[0-1020]BurritoPOSServer.domain" Expanded="true" />
+    <Node UniqueName="[0-1021]BurritoPOSServer.domain.test" Expanded="true" />
+    <Node UniqueName="[0-1001]BurritoPOSServer.domain.test.UserTestCase" Expanded="true" />
+    <Node UniqueName="[0-1022]BurritoPOSServer.service" Expanded="true" />
+    <Node UniqueName="[0-1023]BurritoPOSServer.service.test" Expanded="true" />
+    <Node UniqueName="[0-1006]BurritoPOSServer.service.test.UserSvcImplTestCase" Expanded="true" />
+  </Nodes>
+</VisualState>
